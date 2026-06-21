@@ -25,8 +25,9 @@ Six SVG tail emblem variants with full lore, frame assignments, and design ratio
 | **Apex Vector** | APEX | VAN026–030 | Forward chevron with integrated V — newest frames at full-capacity maximum range |
 
 
-📋 Changelog
+Changelog
 v2.6.0 — 2026-06-20
+
 ✅ Added full-screen VANTIS login / access gate with shake animation
 
 ✅ Added ⚙ API CONFIG slide-in panel with live REST API integration
@@ -44,6 +45,7 @@ v2.6.0 — 2026-06-20
 ✅ Added self-hosting deployment comment block in HTML head
 
 v2.5.0 — Initial Release
+
 ✅ VAN001–VAN030 full B777F fleet registry
 
 ✅ Three-view platform: Registry · VAMSYS Cards · Emblem Codex
