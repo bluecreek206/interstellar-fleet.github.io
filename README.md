@@ -14,7 +14,7 @@ Six SVG tail emblem variants with full lore, frame assignments, and design ratio
 
 🎖 Tail/FWD Fuselage Emblem Codex
 
-| Emblem |            Class |    Frames |     Description |
+| Emblem |            Class |    Frames       |     Description |
 | --- | --- | --- | --- |
 | **Stellar Crown** | FOUNDING | VAN001–005 | Five stars in an arc over the VANTIS V — representing the inaugural APAC launch corridors |
 | **Nebula Arc** | EXPANSION I | VAN006–010 | Violet-blue nebula wisps bridging hemispheres across transatlantic and MEA sectors |
