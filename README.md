@@ -12,7 +12,7 @@ Columns include FRAME ID, aircraft name, registration (VX-ANT001–030), ICAO ty
 Individual HUD-style cards for each airframe showing all operational fields — VAMSYS ID (VMS-NNN-B77F-ANT), role tags, class color coding, status pill, and expandable detail panel with engine type, wingspan, payload, max altitude, and assigned base station.
 
 🎖️ Emblem Codex (View 3)
-Six Fleet Insignia Variants tail\nose art emblem variants with full lore, frame assignments, and design rationale:
+Seven Fleet Insignia Variants tail\nose art emblem variants with full lore, frame assignments, and design rationale:
 
 <img width="742" height="303" alt="image" src="https://github.com/user-attachments/assets/9b62dc0a-8cd1-4bd0-a007-dea4c4f33f04" />
 
@@ -28,6 +28,7 @@ Six Fleet Insignia Variants tail\nose art emblem variants with full lore, frame 
 | **Meridian Cross** | MERIDIAN | VAN016–020 | Precision crosshair with diamond accents — exacting pharma and high-value compliance |
 | **Nova Burst** | NOVA | VAN021–025 | Crystalline eight-point burst — thermal deployment capability for perishable cargo |
 | **Apex Vector** | APEX | VAN026–030 | Forward chevron with integrated V — newest frames at full-capacity maximum range |
+| **Pulsar Ring** | STRATOS | VAN031-15 | The Pulsar Ring marks the STRATOS expansion class — high-altitude, high-frequency operations across dense corridor networks,  inaugurating the Pacific Ridge corridor from Nadi |
 
 
 Changelog
@@ -85,7 +86,7 @@ FLEET PACKAGE IS BY ADMINISTRATOR ACCESS ONLY
 
 VAMSYS · VANTIS AIR CARGO · FLEET INTELLIGENCE DIVISION
 
-30 Frames. Six Classes. One Platform.
+31 Frames. Seven Active Classes. Five Reserved Classes. One Platform.
 
 Fly Smart. Fly Heavy . Fly Vantis
 
