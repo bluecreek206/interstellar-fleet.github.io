@@ -1,5 +1,5 @@
 # Full VANTIS Interstellar Fleet Package
-A complete Interstellar-themed Fleet Package for the VANTIS B777F fleet.
+A complete Interstellar-themed Fleet Package for the VANTIS\AirGrid B777F fleet.
 
 What's Built
 🛰️ Fleet Registry (View 1)
@@ -12,7 +12,7 @@ Columns include FRAME ID, aircraft name, registration (VX-ANT001–030), ICAO ty
 Individual HUD-style cards for each airframe showing all operational fields — VAMSYS ID (VMS-NNN-B77F-ANT), role tags, class color coding, status pill, and expandable detail panel with engine type, wingspan, payload, max altitude, and assigned base station.
 
 🎖️ Emblem Codex (View 3)
-Six SVG tail emblem variants with full lore, frame assignments, and design rationale:
+Six Fleet Insignia Variants tail\nose art emblem variants with full lore, frame assignments, and design rationale:
 
 <img width="742" height="303" alt="image" src="https://github.com/user-attachments/assets/9b62dc0a-8cd1-4bd0-a007-dea4c4f33f04" />
 
@@ -79,9 +79,9 @@ COMPILED       : 2026-06-20
 This software is proprietary to VANTIS Air Cargo.
 Unauthorised distribution, reproduction, or modification is prohibited.
 
-*** Administrator Access Only ***
-
 <div align="center">
+
+FLEET PACKAGE IS BY ADMINISTRATOR ACCESS ONLY
 
 VAMSYS · VANTIS AIR CARGO · FLEET INTELLIGENCE DIVISION
 
