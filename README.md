@@ -81,7 +81,7 @@ Unauthorised distribution, reproduction, or modification is prohibited.
 
 <div align="center">
 
-*** ADMINISTRATOR ACCESS ONLY ***
+ADMINISTRATOR ACCESS ONLY
 
 VAMSYS · VANTIS AIR CARGO · FLEET INTELLIGENCE DIVISION
 
