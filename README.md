@@ -1,5 +1,5 @@
 # Full VANTIS Interstellar Fleet Package
-A complete Interstellar-themed Fleet Package for the VANTIS B777F fleet.
+A complete Interstellar-themed Fleet Package for the VANTIS\AirGrid B777F fleet.
 
 What's Built
 🛰️ Fleet Registry (View 1)
