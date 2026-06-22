@@ -79,9 +79,9 @@ COMPILED       : 2026-06-20
 This software is proprietary to VANTIS Air Cargo.
 Unauthorised distribution, reproduction, or modification is prohibited.
 
-*** Administrator Access Only ***
-
 <div align="center">
+
+*** ADMINISTRATOR ACCESS ONLY ***
 
 VAMSYS · VANTIS AIR CARGO · FLEET INTELLIGENCE DIVISION
 
