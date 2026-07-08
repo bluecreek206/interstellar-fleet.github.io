@@ -1,0 +1,1263 @@
+VANTIS AIR CARGO
+VANTIS AirGrid
+Standard Operating Procedures (Fictitious-Mimics Real-world)
+
+Document Number	VAG-SOP-001
+Revision	1.0
+Effective Date	June 15, 2026
+Issuing Authority	VANTIS Director of Operations
+Platform	AirGrid Intelligence Suite
+Fleet Applicability	Boeing 777F (All Variants)
+Network	VATSIM Global Network
+
+
+CONTROLLED DOCUMENT — VANTIS OPERATIONS SUITE
+Classification: Internal Use Only  |  Not for External Distribution
+Precision. Payload. Performance.
+
+Table of Contents
+
+Section 1 — Introduction & Organizational Overview
+1.1   VANTIS Air Cargo — Mission and Identity
+1.2   AirGrid Intelligence — Platform Overview
+1.3   Scope and Applicability of This SOP
+1.4   Document Control and Revision Policy
+1.5   Organizational Chart
+1.6   Operational Philosophy
+Section 2 — Communications Standards
+2.1 – 2.7   VATSIM Radio, Phraseology, ACARS, Crew-Dispatch, Emergency, Etiquette, Logs
+Section 3 — Dispatch Workflow & Flight Release
+3.1 – 3.7   Dispatch Authority, Pre-Dispatch, Release Package, Sign-Off, In-Flight, Debrief, IROPS
+Section 4 — Flight Planning Standards
+4.1 – 4.9   Route Planning, Cost Index, Fuel Policy, Alternates, ETOPS, W&B, Performance, Vertical Profile, AirGrid FMS
+Section 5 — Boeing 777F Operating Guidelines
+5.1 – 5.11   Aircraft Description, Cockpit Prep, Engine Start, Taxi, Takeoff, Climb, Cruise, Descent, Landing, Post-Flight, Cold & Dark Startup
+Section 6 — Cargo Handling & Payload Operations
+6.1 – 6.8   Classification, ULD Standards, Manifest Review, DG, Temperature Control, CG Management, Cargo Doors, Payload Optimizer
+Section 7 — Safety Protocols
+7.1 – 7.8   SMS, Safety Reporting, Fatigue, Sterile Cockpit, CRM, Ground Safety, VATSIM Safety, Fuel Safety
+Section 8 — AirGrid Intelligence — Operational Usage
+8.1 – 8.9   Platform Overview, Dispatcher View, Pilot View, Route Intelligence, Fuel Intelligence, Cargo Monitor, Weather Feed, Post-Flight Analytics, Fallback
+Section 9 — Pilot Expectations & Standards
+9.1 – 9.8   Qualifications, PIC Authority, First Officer, Professionalism, Continuous Learning, Dispatch Cooperation, Callsign Standards, Flight Log Submission
+Section 10 — Abnormal & Emergency Procedures
+10.1 – 10.14   Philosophy, Engine Failure, Hydraulics, Pressurization, Electrical, Cargo Fire, Medical, TCAS RA, Windshear, Emergency Fuel, RTO, Go-Around, AirGrid Abnormal, VATSIM Network Failure
+Appendix A — 777F Quick Reference Checklist (QRC)
+Appendix B — AirGrid Flight Release Template
+Appendix C — VANTIS Kneeboard Card Pack
+Appendix D — VANTIS Route Network Overview
+Appendix E — Glossary of Terms
+
+Section 1 — Introduction & Organizational Overview
+1.1 VANTIS Air Cargo — Mission and Identity
+VANTIS Air Cargo is a premier virtual cargo carrier operating within the VANTIS global simulation network. Established with the ambition to define the gold standard of virtual cargo aviation, VANTIS operates a worldwide logistics network spanning six continents, connecting major freight hubs across the Americas, Europe, the Middle East, Asia-Pacific (including Oceania), and Africa.
+Our mission is unambiguous: to deliver cargo with the highest fidelity of real-world operational practice, pilot discipline, and dispatch intelligence available on the VANTIS network. VANTIS is not merely a virtual airline — it is a simulation of a world-class cargo carrier, executed with precision, staffed by professionals, and driven by data.
+VANTIS operates under the sub-brand AirGrid Intelligence — the proprietary platform that serves as the operational nervous system of the carrier. Every route flown, every fuel plan computed, every cargo manifest reviewed, and every post-flight debrief processed flows through AirGrid.
+The VANTIS identity is built on three foundational pillars:
+●	Precision: Every operational decision is grounded in data, procedure, and verified intelligence.
+●	Payload: Cargo is our product. Every flight is a commitment to our virtual customers and the integrity of the supply chain we simulate.
+●	Performance: Our crews, dispatchers, and systems are held to the highest measurable standards on the network.
+
+Here are interstellar themed aircraft names tailored specifically for the VANTIS B777 F fleet livery, matching our corporate futuristic, astro navigational identity. All names are built to sound authoritative on an ops board, clean in a VAMSYS fleet card, and iconic on a tail or nose gear door.
+
+VANTIS Interstellar Fleet Names (B777 F)
+Constellations & Stellar Landmarks	•	VANTIS Orion
+•	VANTIS Andromeda
+•	VANTIS Lyra
+•	VANTIS Centauri
+•	VANTIS Vega
+•	VANTIS Altair
+•	VANTIS Polaris
+•	VANTIS Arcturus
+•	VANTIS Sirius
+•	VANTIS Rigel
+Deep Space / Exploration Themes	•	VANTIS Horizon
+•	VANTIS Eventide
+•	VANTIS Zenith
+•	VANTIS Apex
+•	VANTIS Meridian
+•	VANTIS Astris
+•	VANTIS Nebula
+•	VANTIS Solstice
+•	VANTIS Eclipse
+•	VANTIS Umbra
+Galactic Structures & Phenomena	•	VANTIS Helix
+•	VANTIS Quasar
+•	VANTIS Pulsar
+•	VANTIS Singularity
+•	VANTIS Ionis
+•	VANTIS Radiant
+•	VANTIS Flux
+•	VANTIS Vector
+•	VANTIS Halo
+•	VANTIS Arc
+Mythology Infused Cosmic Names
+
+	•	VANTIS Astraeus (Titan of dusk & stars)
+•	VANTIS Hyperion (Titan of light)
+•	VANTIS Nyx (Night incarnate)
+•	VANTIS Selene (Moon)
+•	VANTIS Aether (Upper sky)
+•	VANTIS Caelum (Heavens)
+•	VANTIS Vespera (Evening star)
+•	VANTIS Solaris (Sun borne)
+Ultra Futuristic / AirGrid Aligned	•	VANTIS Continuum
+•	VANTIS Luminex
+•	VANTIS Chronos
+•	VANTIS Astrion
+•	VANTIS Vectorium
+•	VANTIS Stellaris
+•	VANTIS Quantum
+•	VANTIS Parallax
+•	VANTIS Ascendant
+•	VANTIS Equinox
+
+1.2 AirGrid Intelligence — Platform Overview
+AirGrid Intelligence is the proprietary operational data and dispatch intelligence platform developed exclusively for VANTIS Air Cargo. It functions as the central integration layer connecting weather data, routing intelligence, fuel computation, cargo monitoring, FMS data feeds, and post-flight analytics into a single operational environment accessible to both dispatchers and flight crew.
+AirGrid serves two primary user groups:
+●	Dispatchers: Access the full AirGrid dashboard to plan routes, compute fuel loads, filter NOTAMs, review weather packages, and issue flight releases.
+●	Pilots: Access a pilot-facing AirGrid view presenting the pre-flight brief, fuel summary, cargo status, active release, and real-time monitoring feeds during flight.
+
+AirGrid is not optional. No flight operates under the VANTIS callsign without a valid, dispatcher-signed AirGrid release on file. See Section 8 for full operational usage guidance.
+1.3 Scope and Applicability of This SOP
+This Standard Operating Procedure document (VAG-SOP-001, Revision 1.0) applies to all VANTIS Air Cargo personnel, including but not limited to:
+●	Pilots-in-Command (Captains) and First Officers operating under the VAN callsign prefix
+●	Dispatchers and Senior Dispatchers operating within the AirGrid Intelligence platform
+●	Operations and Safety personnel in supervisory or oversight roles
+●	AirGrid Data Team members who develop, maintain, or update platform data feeds
+All operations described herein are conducted exclusively on the VATSIM virtual aviation network. References to real-world regulatory bodies (FAA, ICAO, IATA) are made for fidelity and procedural realism; VANTIS is not a certificated real-world operator.
+This SOP supersedes all previous internal operational guidance documents. In the event of conflict between this SOP and any other internal document, this SOP shall take precedence unless a formal amendment or waiver has been issued by the Director of Operations.
+
+
+
+
+NOTE
+This document applies exclusively to Boeing 777F operations. Procedures for any future VANTIS fleet type additions will be addressed in a separate type-specific supplement.
+1.4 Document Control and Revision Policy
+VAG-SOP-001 is a controlled document maintained by the VANTIS Director of Operations. The following policy governs its revision and distribution:
+●	Review Cycle: This SOP is reviewed on a minimum annual basis or following any significant operational change, regulatory guidance update, or platform modification to AirGrid.
+●	Revision Authority: Only the Director of Operations, in consultation with the VP Operations and VP Safety, may authorize revisions. All revisions are assigned a new revision number and effective date.
+●	Distribution: This document is distributed via the AirGrid platform to all active personnel. Receipt constitutes acknowledgment of its contents and mandatory compliance.
+●	Obsolete Copies: All personnel are responsible for ensuring they are operating from the current revision. Obsolete revisions must be discarded or clearly marked "SUPERSEDED."
+●	Amendment Bulletins: Between full revisions, operational changes may be issued as AirGrid Amendment Bulletins (AABs). AABs carry equal force of authority to this SOP and are incorporated at the next full revision.
+
+
+
+
+
+1.5 Organizational Chart
+ 
+Role Summary & Reporting Structure
+The table below provides a complete reference of all roles within the VANTIS organizational structure, including each role's direct reporting relationship and departmental classification. This document reflects the structure as of June 2026 and is intended for internal use only.
+Role	Reports to	Department
+Chief Executive Officer (CEO)	— (Executive Authority)	Executive
+VP Operations	CEO	Operations
+VP Safety	CEO	Safety
+VP Technology	CEO	Technology
+Operations – Chief Pilot	VP Operations	Operations
+Director of Dispatch	VP Operations	Operations
+Hub Operations	VP Operations	Operations
+Senior Dispatchers & Dispatchers	Director of Dispatch	Operations
+Hub Manager	Hub Operations	Operations
+Pilot-in-Command	Senior Dispatchers & Dispatchers	Operations
+Assistant Hub Manager	Hub Manager	Operations
+First Officer	Pilot-in-Command	Operations
+Safety Officers	VP Safety	Safety
+AirGrid Data Team	VP Technology	Technology
+Chief Executive Officer Signature  Jay Roberts		 Date: Jul. 7, 26
+
+
+
+
+
+
+Document Notes
+●	This organizational chart represents the current approved structure effective June 2026.
+●	Any structural changes require written authorization from the Chief Executive Officer.
+●	This document is classified as Internal — Confidential and is not for external distribution.
+●	For HR and staffing inquiries, contact the VP Operations office directly.
+
+Responsibilities
+●	The VP Operations holds ultimate responsibility for all flight operations. 
+●	The Director of Dispatch supervises all dispatch activity and AirGrid release authority. 
+●	The VP Safety operates independently from the operational chain to ensure impartial safety oversight. 
+●	The VP Technology leads the AirGrid Intelligence platform development and data integrity function.
+1.6 Operational Philosophy
+VANTIS operates a dispatch-driven operation. This philosophy, modeled on the dual-authority doctrine employed by real-world Part 121 cargo carriers, places dispatch authority on equal footing with pilot authority. The following principles define how VANTIS conducts every operation:
+1.	Co-Authority: The Dispatcher and the Pilot-in-Command share joint authority over the conduct of a flight. Neither may unilaterally override the other except in cases of safety of flight.
+2.	AirGrid Release Requirement: No VANTIS flight may depart without a valid, dispatcher-signed AirGrid Flight Release on file. Departure prior to release issuance is a procedural violation.
+3.	Data-Driven Decisions: All routing, fuel, and payload decisions must be supported by AirGrid data. Subjective judgment without data substantiation is not an acceptable basis for operational decisions.
+4.	Safety First, Always: When safety and operational efficiency conflict, safety prevails without exception. The Pilot-in-Command retains ultimate authority over the safety of the aircraft and may deviate from any AirGrid-issued guidance to ensure safety of flight.
+5.	Accountability Through Documentation: Every decision, deviation, and event is logged in AirGrid. The post-flight debrief and PIREP submission are not optional activities — they are foundational to the VANTIS continuous improvement cycle.
+
+NOTE
+"Precision. Payload. Performance." is the VANTIS operational tagline. It is not merely a marketing phrase — it is the operational standard by which all crews and dispatchers are evaluated.
+
+
+Section 2 — Communications Standards
+2.1 VATSIM Radio Communications Policy
+All VANTIS flight crew members are required to conduct radio communications in strict accordance with VATSIM Code of Conduct (CoC), VATSIM Global Rating Policy, and the ICAO phraseology standards outlined in ICAO Doc 9432 (Manual of Radiotelephony). VANTIS holds its crews to a higher standard than the VATSIM network minimum — our communications must always reflect the professional caliber of a real-world cargo carrier.
+●	All transmissions must be clear, concise, and in the English language unless ATC jurisdiction specifies otherwise.
+●	Crew members must always monitor the appropriate ATC frequency when under active ATC coverage.
+●	Where no ATC is active, UNICOM 122.800 is used for position broadcasts.
+●	Push-to-talk discipline is mandatory: key the mic, pause one second, transmit. Never transmit while ATC is mid-broadcast.
+●	VANTIS crews do not engage in informal or non-operational transmissions on ATC frequencies.
+●	Controller–Pilot Data Link Communications (CPDLC) is a digital messaging system that allows ATC and pilots to exchange routine operational instructions without relying on voice radio. Instead of speaking over VHF or HF, both sides use standardized text messages, and may be implemented at pilot’s discretion
+2.2 Phraseology Standards (ICAO-Compliant)
+VANTIS always requires ICAO-standard phraseology. The following core standards apply:
+
+Context	Standard Phraseology Example
+Initial contact	"Dubai Control, VANTIS 241, FL340, climbing FL380, request flight level change."
+Readback of clearance	"Cleared to [destination] via [route], climb FL380, squawk [code], VANTIS 241."
+Position report (oceanic)	"Shanwick Radio, VANTIS 241, position [waypoint] at [time], FL380, estimating [next] at [time], SELCAL [code]."
+Request deviation	"VANTIS 241 requesting deviation [left/right] of centerline [distance] miles due weather, advise."
+
+
+CAUTION
+Non-standard or colloquial phraseology on VATSIM ATC frequencies is a reportable conduct issue. VANTIS crews are expected to always model phraseology after real-world airline standards.
+
+2.3 ACARS / AirGrid Messaging Protocol
+VANTIS utilizes the AirGrid Messaging Protocol (AMP) as its primary crew-dispatch communication channel, functioning in a manner analogous to real-world ACARS. The following message types are defined within AMP:
+●	OUT: Aircraft off blocks (pushback commenced). Automated trigger from AirGrid.
+●	OFF: Aircraft airborne. Transmitted at positive rate of climb confirmation.
+●	ON: Aircraft on ground. Transmitted at touchdown.
+●	IN: Aircraft on blocks (parking brake set). Automated trigger from AirGrid.
+●	POSREP: Position report (manual or automated). Required on oceanic tracks.
+●	FUELREP (Optional): Fuel state report. Required every 30 minutes while in cruise.
+●	DIVRQ: Divert request. Triggers in-flight re-release workflow in AirGrid.
+●	WEATRQ: Weather update request to dispatcher.
+●	FREERPT: Free-text operational message to dispatch.
+2.4 Crew-Dispatch Communications: Mandatory Check-In Points
+VANTIS mandates four formal crew-to-dispatch check-ins per flight, transmitted via the AirGrid Messaging Protocol. These check-ins are a optional and may be completed at the following gates:
+
+Check-In Gate	Trigger Event	Required Content
+PUSHBACK CHECK-IN	Prior to or at commencement of pushback. Reported in Pegasus AVRS	Confirm release acceptance, fuel on board, cargo status confirmed, crew ready
+TOP-OF-CLIMB (TOC)	Level-off at initial cruise altitude	Actual fuel on board, cruise FL, ETA destination, any deviations from plan
+TOP-OF-DESCENT (TOD)	Commencement of descent	Fuel on board, destination weather brief confirmation, alternate status, ATIS information
+POST-LANDING	Within 10 minutes of block-in	Fuel remaining, actual block time, any abnormalities encountered, cargo status
+2.5 Internal Messaging Etiquette and Response Standards
+VANTIS internal communications (Discord, AirGrid messaging, operations briefings) are subject to the following standards:
+●	All communications are professional in tone and content. Informal or disrespectful language in operational channels is not permitted.
+●	Oceanic Controllers, when able and available, should acknowledge a pilot's CPDLC AirGrid message within 5 minutes during active flight operations.
+●	Pilots must respond to an Oceanic Controllers message within 10 minutes when not in a critical phase of flight (below 10,000 ft AGL or during approach/departure).
+●	Non-operational social communication is confined to designated social channels and does not intrude upon dispatch or operations channels.
+●	Constructive critique and operational feedback are encouraged. Personal criticism of colleagues is prohibited.
+2.7 Communication Log Requirements
+All material crew-dispatch communications are automatically logged by the AirGrid platform with timestamp, message type, and user ID. Pilots and dispatchers are additionally expected to:
+●	Retain personal notes of any unusual ATC instructions, unusual weather contacts, or emergency communications for inclusion in the post-flight PIREP.
+●	Report any ATC instruction that appeared to conflict with the AirGrid release or VANTIS procedures via the AirGrid Safety Event Submission (see Section 7.2).
+●	Preserve any VATSIM controller contact or supervisor interaction details for operations review if requested.
+
+Section 3 — Dispatch Workflow & Flight Release
+
+3.1 AirGrid Dispatch Authority Model
+The AirGrid Dispatch Authority Model (ADAM) defines the scope and limits of dispatcher authority within VANTIS operations. Under ADAM, dispatchers hold co-authority over any flight from the moment a flight release is opened to the moment the aircraft arrives “on-blocks” at the destination. This model mirrors the FAA Part 121 dispatch authority doctrine.
+Key principles of ADAM:
+●	A dispatcher may withhold or revoke a flight release at any time prior to departure if conditions do not meet VANTIS operational standards.
+●	A dispatcher may initiate an in-flight re-release if conditions change materially during flight (weather deterioration, fuel concern, NOTAM activation).
+●	The Pilot-in-Command may deviate from any dispatch instruction solely on safety grounds but must notify dispatch at the earliest opportunity and document the deviation in AirGrid.
+●	Dispatcher authority does not extend to aircraft control or cockpit procedure. Dispatchers are not permitted to instruct crew on aircraft handling.
+3.2 Pre-Dispatch Planning Phase
+Prior to issuing any flight release, the dispatcher must complete the Pre-Dispatch Planning Phase encompassing the following tasks:
+●	Route Selection: Using AirGrid Route Intelligence, select the optimal city-pair route accounting for great-circle efficiency, ATC route restrictions, active NOTAMs, oceanic track system (OTS) availability, and real-world routing fidelity. Coordinate with ATC via the AirGrid route filing interface.
+●	ETOPS Assessment: For any flight segment where the route extends beyond 60 minutes flying time from an adequate airport, conduct a full ETOPS assessment. VANTIS holds ETOPS-180 authority on trans-oceanic segments. Confirm ETOPS alternate suitability using AirGrid weather and NOTAM data.
+●	Weather Evaluation: Pull the full weather package for departure airport, enroute significant weather (SIGMETs, PIREPs), destination, and a minimum of one alternate. Weather must meet or exceed VANTIS minima as defined in Section 4.4. Any weather concern must be documented in the Special Operations Notes field of the release.
+●	Payload Review: Confirm the payload manifest is complete, that no undeclared dangerous goods are suspected, and that the weight and balance falls within the 777F CG envelope.
+●	Fuel Computation: Complete the full AirGrid fuel computation per Section 4.3, applying the P03 fuel bias and CI85 cost index.
+3.3 AirGrid Flight Release Package — Components
+The AirGrid Flight Release Package (AFRP) is the formal documentation package that authorizes a VANTIS flight. It must contain all the following components, fully completed, before a release is valid:
+
+Component	Description & Requirement
+Route & Alternate Airports	Full city-pair ICAO route string; filed ATC route; primary alternate ICAO; ETOPS alternate(s) if applicable.
+Fuel Plan	Complete fuel breakdown per Section 4.3: Trip, Contingency (3%), Alternate, Final Reserve, Additional, Total Block. P03 bias applied and noted.
+Weight & Balance / Payload Manifest	Payload weight by Load Factor category, ULD count, ZFW, TOW, fuel load, MTOW compliance confirmation, CG position.
+NOTAM Summary	AirGrid-filtered NOTAM list for departure, enroute, and destination/alternate. Relevant NOTAMs highlighted by dispatcher.
+Weather Package	Current METAR and TAF for departure, destination, and alternates; SIGMET/AIRMET synopsis; relevant PIREPs; AirGrid weather trend analysis.
+Special Operations Notes	Any dispatcher-added notes: unusual weather, ATC constraints, cargo special handling, ETOPS critical system status, crew information flags.
+
+3.4 Dispatcher Sign-Off and Pilot Acceptance Procedures
+The flight release is not valid until both the dispatcher's digital signature and the Pilot-in-Command's acceptance are recorded in AirGrid.
+●	The dispatcher completes the AFRP and signs off using their AirGrid dispatcher credentials. The release enters "PENDING PILOT ACCEPTANCE" status.
+●	The AFRP is transmitted to the PIC's AirGrid pilot dashboard. The PIC reviews all components of the release.
+●	If the PIC accepts the release as filed, they sign the acceptance digitally in AirGrid. The release enters "ACTIVE" status, and the flight is cleared to proceed.
+●	If the PIC has questions or concerns, they initiate a Crew-Dispatch conference via AirGrid messaging. The dispatcher must address all concerns before the PIC signs.
+●	If the PIC formally declines to accept the release, the reason must be documented in AirGrid and the dispatcher must revise or the Director of Dispatch must be notified.
+
+
+WARNING
+No VANTIS flight may depart without a release in "ACTIVE" status. Departure without a valid signed release is a serious procedural violation and is subject to administrative review by the Director of Operations.
+
+3.5 In-Flight Re-Release Procedures
+Circumstances may arise during flight that require the flight release to be modified. The following in-flight re-release triggers require dispatcher action:
+●	Destination weather deteriorates below VANTIS operational minima
+●	Fuel burn rate deviates from plan by more than 5% above forecast
+●	A NOTAM activates that affects the planned route or destination
+●	Crew requests a divert to an alternate not covered by the original release
+●	A SIGMET activates along the planned route requiring significant deviation
+The dispatcher issues an amended release via AirGrid (DIVRQ workflow for diversions; AMDRLS workflow for route or fuel amendments). The PIC must acknowledge receipt of any in-flight amendment. If AirGrid is unavailable, the amendment is communicated via voice and documented post-flight.
+3.6 Post-Flight Dispatch Debrief
+Within 60 minutes of the flight entering "IN" (on blocks) status in AirGrid, the dispatcher must complete a Post-Flight Dispatch Debrief entry covering:
+●	Actual fuel burn versus planned fuel burn (AirGrid computes automatically)
+●	Any route deviations from filed plan and their cause
+●	Any in-flight re-release events and their outcome
+●	Weather accuracy assessment (did AirGrid weather package reflect actual conditions?)
+●	Notation of any safety events or irregularities for review by the VP Safety
+3.7 Irregular Operations (IROPS) Dispatch Protocol
+Irregular operations arise from weather, technical, ATC, or other unplanned events. The VANTIS IROPS protocol is as follows:
+●	Declare IROPS: The dispatcher flags the flight as IROPS in AirGrid, which escalates visibility to the Director of Dispatch.
+●	Assess Options: Using AirGrid Route Intelligence and Weather Feed, evaluate delay, re-route, divert, or return-to-base options.
+●	Coordinate with Crew: Issue revised instructions via AirGrid messaging. For complex IROPS, conduct a voice conference with the PIC.
+●	Re-Release if Required: Issue an amended flight release covering any change to route, alternate, or fuel plan.
+●	Notify VP Operations: All IROPS events involving diversions, returns to base, or significant delays are reported to the VP Operations within 30 minutes of the event.
+●	IROPS Debrief: A full IROPS debrief is completed in AirGrid within 24 hours of the event and reviewed at the next operations meeting.
+
+Section 4 — Flight Planning Standards
+
+4.1 Route Planning Philosophy
+VANTIS route planning prioritizes great-circle efficiency modified for ATC awareness. Pure great-circle routes are rarely flyable in the real ATC environment; dispatchers must plan routes that balance geometric efficiency with the published airways, waypoints, and routing restrictions of the relevant FIRs. AirGrid Route Intelligence automates initial route drafting and presents the dispatcher with options ranked by efficiency score.
+Preferred waypoint selection criteria:
+●	Published RNAV waypoints and airways over random route segments wherever possible
+●	Oceanic track system (OTS/NAT/PACOTS) compliance where applicable
+●	Avoidance of active restricted or prohibited airspace as identified by AirGrid NOTAM filter
+●	Routing that supports ETOPS alternate airport access within 180-minute radius
+●	Preference for high-altitude routings (FL350–FL410) that optimize 777F performance at CI85
+4.2 Cost Index Policy
+VANTIS has established a standard Cost Index of CI85 for all Boeing 777F operations. This is the VANTIS operational default and reflects the optimal balance between fuel economy and trip time for long-haul cargo missions, consistent with the economic profile of a premium cargo carrier.
+
+Cost Index	Profile	Application
+CI85 (Standard)	Balanced fuel/time optimization	All standard VANTIS 777F flights
+CI40–60 (Economy)	Fuel-priority, slower speed schedule	Dispatcher-authorized fuel-critical sectors only
+CI100–120 (Performance)	Speed-priority, higher fuel burn	Time-critical cargo, dispatcher-authorized only
+CI0 (Maximum Range)	Maximum range/minimum fuel	Emergency fuel conservation only
+
+Deviations from CI85 must be documented in the AirGrid release under Special Operations Notes and require dispatcher authorization. The FMC CI setting is confirmed as part of the cockpit preparation flow (see Section 5.2).
+4.3 Fuel Policy
+VANTIS fuel policy is derived from ICAO Annex 6 principles, adapted for VATSIM operational realities. The AirGrid fuel computation engine applies the P03 fuel bias automatically. The following fuel components comprise the VANTIS block fuel requirement:
+
+Fuel Component	Definition	Standard
+Trip Fuel	Fuel required from takeoff to landing at destination under planned conditions	Computed by AirGrid using 777F performance data at CI85
+Contingency Fuel	Buffer for forecast inaccuracies, routing deviations, wind variation	3% of trip fuel
+Alternate Fuel	Fuel to fly missed approach at destination and proceed to primary alternate	Computed to most favorable AirGrid-selected alternate
+Final Reserve	Minimum fuel that is always retained; not to be planned for use	30 minutes holding at 1,500 ft AGL, ISA conditions
+Additional Fuel	Extra fuel for ATC delays, weather avoidance, VATSIM routing inefficiencies	Dispatcher authority; documented in release
+Fuel Bias P03	VANTIS standard operational buffer applied to all 777F fuel computations	+3% added to FMS-computed block fuel total
+
+
+NOTE — P03 FUEL BIAS
+The P03 bias is not an additional contingency — it is a systematic correction applied to account for known FMS fuel computation conservatism variances in 777F simulation environments. P03 is pre-applied by Simbrief/AirGrid and must not be double counted in the contingency fuel entry.
+
+
+CAUTION
+The Final Reserve fuel is a hard floor. Any flight state where fuel on board falls to or below the Final Reserve figure must trigger an immediate MINIMUM FUEL declaration to ATC and notification to dispatch via AirGrid FUELREP.
+
+4.4 Alternate Airport Selection Standards
+VANTIS requires that a minimum of one suitable alternate airport be designated on every flight release. Alternate selection criteria are as follows:
+●	Alternate must have a published instrument approach and be forecast above alternate minima at estimated time of arrival (TAF confidence period must cover ETA +/- 1 hour).
+●	Alternate must not share the same weather system as the destination at estimated ETA (common weather area disqualifies an airport as a suitable alternate).
+●	Alternate must be within the fuel range of the aircraft with alternate fuel load as computed in Section 4.3.
+●	For ETOPS segments, ETOPS-qualified alternates must be identified and verified for weather, NOTAM status, and critical system status using AirGrid prior to release issuance.
+●	Where destination weather is marginal, a second alternate may be required at dispatcher discretion.
+4.5 ETOPS Planning
+VANTIS holds ETOPS-180 authority on all trans-oceanic and remote-area segments operated by the Boeing 777F. The following ETOPS planning requirements apply:
+●	Confirm that all ETOPS critical systems are serviceable prior to release issuance. Any ETOPS-limiting MEL item requires route replanning to remain within approved ETOPS threshold.
+●	Identify all ETOPS alternates within the 180-minute radius of the extended diversion track at the single-engine drift-down speed.
+●	Confirm ETOPS alternate weather is at or above minima for the ETOPS window, including TAF validity covering the full ETOPS time window.
+●	Compute ETOPS fuel requirements per AirGrid ETOPS Fuel Module. ETOPS fuel must ensure the aircraft can reach the most distant ETOPS alternate with final reserve fuel remaining.
+●	Document ETOPS assessment in the Special Operations Notes section of the AirGrid release.
+
+WARNING
+Initiating an ETOPS segment without a completed AirGrid ETOPS assessment on file is a serious operational violation. ETOPS authority is a privilege, not a default. All ETOPS requirements must be met before entry into the extended diversion time area.
+
+4.6 Weight & Balance for 777F Cargo Operations
+Weight and balance for the Boeing 777F must be computed for every flight. VANTIS standard limits for cargo operations are:
+●	Maximum Takeoff Weight (MTOW): 347,450 kg (766,000 lb) — 777F standard MTOW
+●	Maximum Zero Fuel Weight (MZFW): 248,115 kg (547,000 lb)
+●	Maximum Landing Weight (MLW): 260,365 kg (574,000 lb)
+●	Maximum Payload: Approximately 103,000 kg (227,000 lb) depending on fuel load
+●	CG Envelope: Must remain within the certified forward and aft CG limits throughout the flight envelope from takeoff to landing fuel burn-off
+AirGrid automatically computes the takeoff CG, landing CG (accounting for fuel burn), and flags any CG exceedance. The dispatcher must confirm that the planned payload distribution keeps the CG within limits at all phases of flight. Unusual fuel burn-off patterns on ultra-long-haul sectors must be assessed for aft CG migration during late cruise.
+4.7 Performance: Takeoff, En Route, and Landing
+VANTIS 777F performance planning must account for the following at each phase:
+Takeoff Performance
+●	Assumed temperature (FLEX) or derate (D-TO1/D-TO2) selection per VANTIS performance tables or dispatcher-computed values in AirGrid.
+●	Runway condition (dry/wet) must be confirmed via AirGrid METAR at time of departure.
+●	V-speeds (V1, VR, V2) are computed by AirGrid and confirmed on the FMC performance init page by the crew.
+●	Obstacle clearance must be confirmed for the departure airport and runway in use.
+●	En Route Performance
+●	Step climb profile optimized by AirGrid at CI85 — see Section 5.6 for climb strategy.
+●	Engine-out drift-down ceiling must be assessed for route segments over terrain above 10,000 ft MSL.
+Landing Performance
+●	Landing weight must be confirmed to be at or below MLW. If above MLW upon arrival, a fuel dump or overweight landing assessment is required (777F is not equipped with a fuel dump system — landing weight planning is critical).
+●	Approach category and Vref speed computed by AirGrid and verified on FMC approach performance page.
+●	Autobrake setting selected by VANTIS landing performance tables accounting for runway length, landing weight, and surface condition.
+4.8 Vertical Profile Planning
+The VANTIS vertical profile for 777F long-haul operations follows a step-climb strategy optimized for weight-based altitude efficiency:
+●	Initial cruise altitude: Selected based on aircraft weight at top-of-climb. AirGrid computes optimal initial FL.
+●	Step climb triggers: As fuel burns off and aircraft weight decreases, AirGrid issues step-climb advisories. Standard step climb increments are 2,000 ft (RVSM airspace).
+●	Maximum cruise altitude: 777F certified ceiling is FL430. VANTIS crews do not plan above FL410 operationally to maintain performance margins.
+●	Descent initiation: AirGrid issues a Top-of-Descent advisory using a managed speed descent profile. Crews are expected to commence descent within 5 minutes of the TOD advisory absent ATC constraint.
+4.9 AirGrid FMS Data Feed
+AirGrid integrates directly with the Boeing 777F Flight Management Computer (FMC) via the AirGrid FMS Data Feed (AFDF). This feed delivers the dispatcher-computed flight plan data directly to the pilot's simulated FMC environment, including:
+●	Full route string (origin, waypoints, airways, destination) loaded to the ROUTE page
+●	Fuel plan data pre-populated on the FUEL page
+●	Gross weight and CG data for PERF INIT page verification
+●	V-speed advisory data for crew confirmation
+●	Cost Index (CI85) pre-set on the PERF INIT page
+The crew must verify all AFDF-loaded data against the paper/digital AirGrid release before accepting. Any discrepancy between the AFDF data and the release must be reported to dispatch immediately. The AFDF is a tool — final authority for all performance data rests with the dispatcher-issued release and the crew's own verification.
+
+Section 5 — Boeing 777F Operating Guidelines
+
+5.1 Aircraft Description and VANTIS Fleet Configuration
+The Boeing 777F — referred to within VANTIS as "the -F" or "triple-seven freighter" — is the primary and sole aircraft type in the VANTIS Air Cargo fleet. The 777F is a twin-engine, wide-body freighter derived from the 777-200LR passenger airframe, optimized for maximum payload capacity and ultra-long-range operations.
+
+Specification	777F Value
+Powerplant	2x GE90-110B1L (110,100 lbf each)
+Max Takeoff Weight	347,450 kg (766,000 lb)
+Max Payload	~103,000 kg (227,000 lb)
+Range (max payload)	~9,070 km (4,900 NM)
+Service Ceiling	FL430
+Wingspan	64.8 m (212 ft 7 in)
+Main Deck Cargo Volume	858.1 m³ (30,302 ft³)
+Standard CI (VANTIS)	CI85
+ETOPS Authority (VANTIS)	ETOPS-180
+
+All VANTIS 777F aircraft carry the VAN callsign prefix followed by a 3-digit flight number (e.g., VAN241). All aircraft are operated in standard VANTIS livery as registered in the AirGrid fleet database.
+5.2 Cockpit Preparation — Ground Power, Pre-Flight Flow
+Prior to engine start, the following cockpit preparation sequence is performed. See Appendix A for the full QRC flow.
+●	Electrical Power: Establish ground power (GPU) or APU electrical power. Confirm AC bus 1 and 2 powered.
+●	IRS Alignment: Set the ADIRU to on. Alignment requires approximately 10 minutes from cold. Confirm alignment complete before taxi.
+●	MCDU/FMC Initialization: Enter IDENT page, confirm database currency. Initialize ROUTE page using AirGrid FMS Data Feed. Complete PERF INIT, FUEL page, and V-speed entries. Confirm CI = 85.
+●	EFIS Setup: Configure captain and first officer EFIS displays per standard VANTIS display configuration. Set altimeter to QNH.
+●	Systems Check: Complete hydraulic, electrical, pneumatic, fuel, and pressurization system checks per the Before Start checklist (Appendix A).
+●	AirGrid Pre-Flight Brief: Review AirGrid pilot dashboard for active release, weather summary, cargo status, and any dispatcher notes. Confirm release acceptance status.
+●	Crew Briefing: PIC conducts departure briefing covering runway in use, SID, initial altitude, relevant NOTAMs, emergency return procedures, and cargo special handling notes.
+
+
+
+NOTE
+Confirm that the Cost Index on the FMC PERF INIT page is set to 85 (CI85) prior to every departure. This is a required verification step in the Before Start checklist.
+
+5.3 Engine Start Procedure
+VANTIS standard engine start sequence for the 777F is as follows:
+●	APU Start (if GPU not available): APU master switch ON → APU START. Monitor APU EGT and confirm APU RUNNING annunciation. Select APU bleed as required.
+●	Obtain Clearance: Request push and start clearance from Ground ATC. Confirm pushback direction with ground crew.
+●	Pushback Check-In: Transmit PUSHBACK CHECK-IN via AirGrid (see Section 2.4).
+●	Engine 2 Start (right engine first, standard): Start selector to START. Monitor N2 rise. At 25% N2, move fuel control switch to RUN. Monitor EGT, N1, N2, oil pressure. Confirm engine stabilized at idle.
+●	Engine 1 Start: Repeat sequence for left engine.
+●	After Start Flow: APU bleed OFF → Engine bleed ON. Generator switches on. APU off (if no longer required). Confirm all engine parameters stable. Complete After Start checklist (Appendix A).
+
+CAUTION
+Monitor EGT closely during engine start. A hot start (EGT exceeding start limit) or hung start (N2 fails to increase normally) requires immediate abort of the start sequence: fuel control switch to CUTOFF, identify and resolve the cause before re-attempting.
+
+5.4 Taxi Procedures — Cargo Ramp Awareness
+Cargo ramp taxi operations require heightened situational awareness due to the presence of ground equipment, ULD loaders, fuel trucks, and ground personnel.
+●	Taxi speed is limited to 30 knots on taxiways and 10 knots on cargo apron areas.
+●	Confirm taxi clearance includes confirmation of any hot spots (from AirGrid NOTAM filter) before commencing taxi.
+●	Exterior lights: taxi light ON, logo light ON, beacon ON. Strobes OFF until entering the active runway.
+●	The PIC is responsible for ensuring the aircraft's wingspan clearance from all structures, equipment, and other aircraft during taxi. Use ground marshalling guidance for tight apron areas.
+●	Flap extension is completed during taxi at the appropriate checklist point; confirm wing areas clear before extending.
+●	Complete the Before Takeoff checklist (Appendix A) at the runway holding point prior to lineup.
+5.5 Takeoff Procedures
+VANTIS 777F takeoff procedures are as follows:
+●	Receive takeoff clearance from Tower ATC. Acknowledge and read back correctly.
+●	Line up on the centerline. Confirm transponder is in ALT mode. Strobes ON.
+●	Advance thrust levers to the computed FLEX (assumed temperature) or selected derate thrust setting. Confirm thrust stabilized before 80 knots.
+●	PF calls "80 knots" — PM confirms. PF retains controls.
+●	At V1: PF removes hand from thrust levers. Decision to fly is committed.
+●	At VR: Rotate smoothly at 2–3°/second to approximately 12–15° nose-up attitude.
+●	Positive rate of climb confirmed — PM calls "Positive Rate." PF calls "Gear Up."
+●	At thrust reduction altitude (typically 1,000 ft AAL or as per SID), reduce to climb thrust. Select autopilot engagement at or above 200 ft AAL.
+●	Complete the After Takeoff checklist (Appendix A) passing 10,000 ft (sterile cockpit ends).
+
+WARNING — CARGO CG ON TAKEOFF
+777F cargo CG is heavily influenced by payload distribution. Confirm CG is within forward and aft limits before takeoff. A significantly aft CG will require higher control column input for rotation — crews must be aware and briefed. An exceedance of the aft CG limit on a heavy cargo aircraft is a critical flight safety hazard.
+
+5.6 Climb Profile: CI85 Climb Schedule and Step Climb Strategy
+At CI85, the 777F climbs at 250 KIAS below 10,000 ft, then accelerates to the economy climb speed schedule (typically around 290–300 KIAS / M0.82, depending on weight and temperature). AirGrid provides the initial cruise flight level based on current TOW.
+Step climb strategy for a typical long-haul VANTIS sector:
+●	Initial cruise: FL330–FL350 (typical for heavy departure weights)
+●	Step 1: +2,000 ft when AirGrid step climb advisory issued (typically 2–3 hours into cruise)
+●	Step 2: +2,000 ft at second advisory (mid-cruise, lighter weight)
+●	Max planned FL: FL390–FL410 for late-cruise light weight operations
+Coordinate step climb requests with ATC. If ATC denies a step, notify dispatch via AirGrid FUELREP with expected additional fuel burn. Do not accept a step above FL410 on the VANTIS 777F.
+5.7 Cruise Procedures
+During cruise, the following VANTIS procedures apply:
+●	Autopilot management: LNAV and VNAV engaged for all cruise phases. Manual flight limited to brief training exercises and abnormal situations. Both autopilots are available — only one engaged in cruise unless approach requires dual AP selection.
+●	Fuel monitoring: Complete a FUELREP check every 30 minutes, comparing actual fuel on board with the AirGrid fuel plan. Flag any deviation exceeding 2% to dispatch via AirGrid FUELREP.
+●	SELCAL watch: On oceanic tracks, maintain SELCAL watch on the assigned HF frequency. Test SELCAL at oceanic entry. Confirm SELCAL code is entered correctly in the ATC/comm system.
+●	HF communications: On NAT, PACOTS, or other oceanic tracks, conduct voice position reports on the assigned HF frequency at each reported waypoint. AirGrid POSREP is transmitted simultaneously.
+●	Weather monitoring: Continuously monitor AirGrid weather feed for SIGMETs along route. Notify dispatch of any significant convective activity that may require deviation.
+●	TCAS: TCAS set to TA/RA mode throughout cruise.
+5.8 Descent and Approach
+VANTIS descent and approach procedures are as follows:
+●	Obtain destination ATIS via AirGrid weather feed or direct radio contact. Review approach plate for runway in use.
+●	Transmit TOD check-in to dispatch via AirGrid at commencement of descent.
+●	Select and brief the instrument approach. PIC conducts approach brief including approach type, decision altitude/height, Vref, missed approach procedure, and alternate activation criteria.
+●	Initiate descent via AirGrid TOD advisory using a managed speed (VNAV PTH) profile to achieve efficient, speed-managed descent.
+●	Configure aircraft per the approach checklist. Extend flaps and gear per the Before Landing checklist (Appendix A).
+●	Stabilization criteria: The aircraft must be fully stabilized by 1,000 ft AAL in IMC or 500 ft AAL in VMC. Parameters: correct configuration, on profile, on centerline, on speed (Vref + additive), sink rate within limits, thrust above idle. If not stable — GO AROUND, no exceptions.
+
+
+
+
+WARNING — STABILIZED APPROACH GATE
+An unstabilized approach below the stabilization gate is one of the leading causes of runway excursions in cargo operations. VANTIS has a mandatory go-around policy for any approach that does not meet stabilization criteria by the applicable gate altitude. This policy is non-negotiable.
+
+5.9 Landing and Rollout
+Landing rollout in the 777F with a cargo load requires specific awareness:
+●	Autobrake setting selected per approach performance (typically BTV-2 or BTV-3 for normal operations).
+●	Thrust reversers deployed at main gear touchdown. Reverse thrust selection should be symmetric; asymmetric reverser is an abnormal procedure.
+●	Cargo CG on rollout: With a heavy aft-loaded cargo configuration, braking can shift effective weight loading forward abruptly. Apply smooth, progressive braking. Avoid harsh brake application that could cause nose gear ground contact loads to spike.
+●	Autobrake system can be deactivated by applying manual brake pressure once target deceleration is achieved.
+●	Clear the runway at the first available high-speed turnoff. Contact Ground frequency when clear of the active runway.
+5.10 Post-Flight: Securing Aircraft and AirGrid Sync
+After clearing the runway and parking on the cargo apron:
+●	Engage parking brake. Set thrust levers to idle.
+●	Complete the After Landing / Shutdown checklist (Appendix A).
+●	Shut down engines. APU start if ground power is not immediately available.
+●	Confirm all cargo door status indicators — AirGrid Cargo Monitor will flag any door open or pressurization seal anomaly for ground crew.
+●	Transmit POST-LANDING check-in via AirGrid (see Section 2.4). Include fuel remaining, actual block time, any abnormalities.
+●	Complete AirGrid PIREP within 2 hours of block-in. See Section 9.8 for PIREP requirements.
+●	AirGrid Post-Flight Data Sync: The AirGrid platform automatically downloads flight data from the FMC data feed on block-in. Crew must confirm sync is complete before logging out of AirGrid.
+5.11 Cold & Dark Startup Checklist (Abbreviated Flow)
+For full checklist items and challenge/response, refer to Appendix A. The following is the abbreviated startup flow from a cold and dark cockpit state:
+●	Battery switch ON → verify battery voltage
+●	Ground power / APU initiation
+●	Overhead electrical panel: buses powered, generator switches checked
+●	IRS selectors to NAV (begin alignment — takes ~10 min)
+●	Fuel panel: fuel pumps ON, fuel quantity verified against AirGrid fuel plan
+●	Hydraulic panel: pump switches as required
+●	FMC/MCDU: IDENT → ROUTE → DEPARTURES → PERF INIT → FUEL → V-SPEEDS
+●	EFIS/MCP setup: course, altitude preselect, speeds
+●	Cabin pressurization: auto selected, landing altitude set
+●	Anti-ice: as required per conditions
+●	Communications: all radios tuned; ATIS received; AirGrid release confirmed
+●	Complete Before Start checklist (Appendix A)
+
+Section 6 — Cargo Handling & Payload Operations
+
+6.1 VANTIS Cargo Classification System
+VANTIS classifies all cargo carried on its 777F fleet into four primary categories, aligned with IATA cargo classification standards:
+
+Category	Code	Description	Special Requirements
+General Cargo	GCG	Standard non-hazardous freight; no special handling required	None beyond standard ULD stowage
+Priority Cargo	PRI	Time-critical shipments; expedited handling at all stations	Forward deck priority; AirGrid priority flag active
+Temperature-Controlled	TCL	Pharmaceuticals, perishables, biological materials requiring temperature maintenance	AirGrid temperature monitoring active; ULD temp sensor integration required
+Dangerous Goods	DGR	IATA DG categories; hazardous materials requiring special declaration and stowage	Full IATA DG documentation; crew notification mandatory; stowage per DG compatibility matrix
+
+6.2 Unit Load Device (ULD) Standards for 777F
+The 777F accommodates the following standard Unit Load Devices on its main deck and lower holds:
+●	Main Deck: P6P (PMC) pallet — 96" x 125" contour; LD-11 container; M6P (special contour). Maximum 27 positions on main deck.
+●	Lower Forward Hold: LD-3 and LD-6 containers; standard 88" x 108" pallets.
+●	Lower Aft Hold: LD-3 and LD-6 containers.
+●	Bulk Compartment: Loose-load stowage to 5,000 lb maximum weight per AirGrid bulk load plan.
+All ULDs must be AirGrid-registered with a ULD number, type, weight, and cargo category before loading. ULD tracking is maintained in real-time via the AirGrid Cargo Monitor (see Section 8.6).
+
+NOTE
+ULD maximum gross weights must be respected at all times. Overweight ULDs compromise aircraft structural integrity and CG calculations. The loading supervisor is responsible for confirming ULD weights before doors close.
+
+6.3 Payload Manifest Review — Pilot Responsibilities
+The Pilot-in-Command is responsible for reviewing and accepting the Payload Manifest before every departure. The manifest review must confirm:
+●	Total payload weight matches the AirGrid release weight and balance data
+●	All DGR cargo is declared and accompanied by a Shipper's Declaration for Dangerous Goods
+●	TCL cargo has active AirGrid temperature sensor links confirmed
+●	CG position is within limits for the loaded aircraft weight
+●	No cargo category exclusions are violated (certain DG categories cannot be co-loaded)
+●	The number of ULDs on the manifest matches the AirGrid Cargo Monitor count
+If any manifest discrepancy is identified, the PIC must halt boarding and notify dispatch before the cargo doors are closed.
+6.4 Dangerous Goods Awareness
+VANTIS carries dangerous goods in accordance with IATA Dangerous Goods Regulations. The following DG categories are relevant to 777F cargo operations:
+
+IATA Class	Description	Crew Notification
+Class 1	Explosives	Mandatory PIC written notification; stowage aft of CG only
+Class 2	Gases (flammable, non-flammable, toxic)	PIC notification; quantity limits apply
+Class 3	Flammable liquids	PIC notification; fire suppression compatibility check
+Class 6	Toxic and infectious substances	PIC notification; sealed ULD required; temperature control if Class 6.2
+Class 7	Radioactive materials	PIC notification mandatory; contact distance limits apply in cockpit area
+Class 8	Corrosives	PIC notification; lower deck stowage preferred
+
+
+WARNING
+The PIC must never authorize departure with undeclared or improperly documented dangerous goods. If DGR documentation is incomplete or inconsistent with the AirGrid manifest, the PIC must refuse departure until the discrepancy is resolved with the loading supervisor and dispatcher.
+
+6.5 Temperature-Controlled Cargo Protocols
+Temperature-controlled cargo (TCL) requires active monitoring throughout the flight. VANTIS AirGrid Cargo Monitor integrates directly with temperature sensors embedded in TCL-rated ULDs.
+●	Before departure, the PIC confirms via AirGrid Cargo Monitor that all TCL ULD sensors are active and reading within the acceptable pre-flight temperature band.
+●	AirGrid will automatically alert the flight crew via the pilot dashboard if a TCL ULD temperature exceedance is detected in-flight.
+●	Upon receiving a TCL temperature alert, the crew notifies dispatch via AirGrid FREERPT and the dispatcher assesses whether the shipment is compromised and whether a divert or expedited arrival is warranted.
+●	The 777F main deck is a temperature-conditioned environment. Lower holds are partially temperature conditioned. Dispatcher must confirm TCL cargo stowage location is appropriate for the temperature requirement.
+6.6 Weight Distribution and CG Envelope Management
+Maintaining the aircraft's center of gravity within the certified envelope is a continuous responsibility throughout loading, departure, cruise, and landing. Key CG management principles for the 777F:
+●	Heavy pallets are distributed symmetrically around the structural floor beam grid to avoid point load exceedances.
+●	Forward-loaded aircraft (CG forward of nominal) will require greater elevator input for rotation — take note and brief crew.
+●	Aft-loaded aircraft (CG near aft limit) will be more pitch-sensitive — brief crew; confirm aft CG is within the certified aft limit with fuel load accounted for at MZFW.
+●	During fuel burn on ultra-long-haul sectors, wing tank fuel burn off causes the CG to migrate. Confirm via AirGrid W&B computation that CG remains within limits throughout the flight from TOW to landing weight.
+●	Any CG shift detected in-flight that cannot be explained by fuel burn must be reported to dispatch immediately.
+6.7 Cargo Door Operations and Pilot Walk-Around Points
+The Boeing 777F features a main deck cargo door (nose) and a main deck side cargo door, in addition to lower lobe belly doors. Pilot walk-around points for cargo door status:
+●	Confirm all cargo doors are closed and latched before engine start.
+●	The nose cargo door area is a caution zone during walk-around; do not approach when door is in motion.
+●	AirGrid Cargo Monitor displays door status. Green = closed and latched; any other state requires ground crew confirmation before start.
+●	Walk-around checklist includes inspection of cargo door seals for visible damage or improper seating.
+●	Upon arrival at destination, confirm all cargo doors open correctly and door status in AirGrid is updated by ground crew before AirGrid post-flight sync completes.
+
+
+6.8 Fuel-Payload Trade Analysis
+The AirGrid Payload Optimizer tool provides dispatchers and pilots with a fuel-payload trade analysis for each sector. This tool calculates:
+●	The maximum payload is achievable at different fuel load levels (trading fuel for payload weight)
+●	The revenue impact (in virtual terms) of different payload/fuel combinations
+●	The recommended payload/fuel split for the sector based on range, alternate requirements, and MTOW/MZFW limits
+Pilots are encouraged to review the Payload Optimizer output in the AirGrid Pilot Dashboard during pre-flight briefing. If the PIC believes the planned payload/fuel split is operationally unsafe, they must raise this with dispatch before accepting the release.
+
+Section 7 — Safety Protocols
+
+7.1 VANTIS Safety Management System (SMS) Overview
+VANTIS operates a formal Safety Management System (SMS) modeled on ICAO Doc 9859 (Safety Management Manual) principles. The VANTIS SMS encompasses four core components:
+●	Safety Policy: The VP Safety owns the VANTIS Safety Policy, which establishes the commitment to safety as the organizational priority above all operational pressures.
+●	Safety Risk Management: Systematic identification of hazards, assessment of risk, and implementation of risk controls across all operational functions.
+●	Safety Assurance: Ongoing monitoring of safety performance through AirGrid post-flight analytics, safety event reports, and periodic operational audits.
+●	Safety Promotion: Training, awareness, and a positive safety culture where all personnel are empowered and expected to report safety concerns without fear of negative consequences.
+7.2 Safety Reporting — AirGrid Safety Event Submission
+VANTIS operates a non-punitive safety reporting culture. All personnel are required to submit safety event reports for any occurrence that affects or could affect safety of operations. Reports are submitted via the AirGrid Safety Event Submission (SES) module.
+●	Mandatory Report Events: Go-around, rejected takeoff, emergency declaration, TCAS RA, significant weather avoidance, fuel emergency or minimum fuel, cargo abnormality, ATC error or significant VATSIM network event affecting flight safety.
+●	Voluntary Report Events: Any event the crew or dispatcher believes contains a safety learning opportunity, including near-misses, procedural deviations, and equipment anomalies.
+●	Submission Deadline: Mandatory reports must be submitted via AirGrid SES within 2 hours of the event.
+●	Review: VP Safety reviews all SES submissions within 24 hours and determines if follow-up action, investigation, or SOP amendment is required.
+
+NOTE
+VANTIS's non-punitive reporting policy means that voluntary disclosure of a safety event or procedural deviation will not result in disciplinary action, provided the report is honest and submitted in good faith. The goal is learning, not punishment.
+
+7.3 Fatigue Risk Management
+In the VATSIM context, fatigue is a real concern for simulation quality and safety decision-making. VANTIS policy:
+●	No VANTIS flight exceeding 6 hours planned block time may commence without a break plan filed with dispatch via the AirGrid pre-flight briefing module.
+●	A break plan identifies when crew will take a rest period during flight (typically 1–2 hours mid-cruise for ultra-long-haul sectors) and confirms that both PIC and FO have adequate rest before the sector.
+●	Crews are self-certifying for fitness to fly. A crew member who is fatigued before a flight must notify dispatch and defer the flight. There is no operational pressure that justifies commencing a flight while unfit.
+●	If fatigue develops during a long-haul sector, the PIC must advise dispatch via AirGrid FREERPT and can request a priority arrival or divert if fatigue is considered operationally significant.
+7.4 Sterile Cockpit Policy
+VANTIS enforces a strict sterile cockpit policy during critical phases of flight:
+●	Sterile Cockpit Phase: Below 10,000 ft AAL on departure and on approach below 10,000 ft AAL (or below the final approach gate, whichever is more restrictive).
+●	During sterile cockpit phases, only flight-critical communications are permitted. No non-essential conversation, AirGrid messaging browsing, or social communication.
+●	The Captain enforces sterile cockpit discipline. The First Officer is empowered to call a sterile cockpit violation if the Captain departs from it.
+●	ATC communications and safety-critical crew coordination are permitted at all times.
+
+
+
+
+CAUTION
+Sterile cockpit violations are among the most cited contributing factors in approach and departure incidents in cargo operations. This policy exists because it saves lives — and in the VANTIS context, it preserves the integrity and realism of our operation.
+
+7.5 Crew Resource Management (CRM) Standards
+VANTIS requires all crews to apply CRM principles throughout every flight:
+●	Threat & Error Management (TEM): Actively identify threats (weather, ATC, technical, cargo) and manage errors before they escalate.
+●	Shared Mental Model: Both crew members must have a clear, common understanding of the current situation, plan, and contingencies at all times.
+●	Assertiveness: The First Officer is empowered and expected to speak up if they observe a concern. "Captain it is" — deferring to authority at the expense of safety — is not acceptable in VANTIS operations.
+●	Task Management: During high workload phases, share tasks appropriately. The non-flying pilot manages communications and checklists while the flying pilot focuses on aircraft control.
+●	Debrief Culture: At the end of every flight, crews conduct a brief self-debrief. What went well? What could be improved? This feeds the AirGrid post-flight PIREP.
+7.6 Ground Safety: FOD, Ramp Hazards, and Cargo Area Restrictions
+●	Foreign Object Damage (FOD): Crews conducting walk-arounds must report any FOD observed on the cargo ramp immediately to the ground supervisor and document in the AirGrid pre-departure safety check.
+●	Ramp Hazards: Fuel trucks, ULD loaders, and ground support equipment represent the primary ramp hazard. The PIC is responsible for confirming the aircraft is clear of all equipment before taxi commencement.
+●	Cargo Area Restrictions: Flight crew do not enter the main deck cargo area during flight. The main deck is a restricted area once cargo is sealed. Any cargo-related alert during flight (AirGrid Cargo Monitor, smoke, temperature) is handled from the cockpit per Section 10.6.
+7.7 VATSIM-Specific Safety: Pilot Disconnect Procedures
+Network disconnection during a VATSIM flight is a recognized risk. VANTIS procedures for managing disconnection:
+●	Before disconnecting intentionally (system issue, real-world emergency), notify ATC via voice with a brief advisory: "[callsign] experiencing technical difficulties, will disconnect from network momentarily."
+●	Simultaneously transmit an AirGrid FREERPT with the word "DISCONNECT" and the reason.
+●	Set autopilot to a safe cruise configuration (level flight, appropriate heading) before disconnecting.
+●	Upon reconnection, contact ATC immediately and advise: "[callsign] back on frequency, confirm current position and clearance."
+●	If network failure occurs without warning (crash-to-desktop, sim CTD), submit an AirGrid SES report after the event noting the disconnect and circumstances.
+7.8 Fuel Safety: Minimum Fuel Declarations and Emergency Thresholds
+VANTIS fuel safety thresholds are defined as follows:
+
+Fuel State	Threshold	Required Action
+Comfortable	>30 min above Final Reserve	Normal operations
+Minimum Fuel	Final Reserve + Alternate fuel remaining	Declare MINIMUM FUEL to ATC; notify dispatch via FUELREP; expedite arrival
+Emergency Fuel (MAYDAY)	Final Reserve only remaining	Declare MAYDAY FUEL to ATC; immediate landing at nearest suitable airport; notify dispatch URGENTLY
+
+
+WARNING
+"MINIMUM FUEL" is a fuel state advisory, not an emergency. However, once declared, it communicates to ATC that any delay could result in an emergency. "MAYDAY FUEL" is an emergency declaration and takes immediate priority. Do not delay either declaration out of concern for appearances.
+
+
+
+Section 8 — AirGrid Intelligence — Operational Usage
+
+8.1 Platform Overview
+AirGrid Intelligence is the proprietary operational intelligence platform developed exclusively for VANTIS Air Cargo. It is the single most important tool in the VANTIS operational ecosystem — serving simultaneously as the dispatch authority platform, the crew briefing tool, the flight monitoring system, the cargo tracking interface, and the post-flight analytics engine.
+AirGrid integrates the following data streams into a unified operational environment:
+●	Real-time and forecast weather (METAR, TAF, SIGMET, AIRMET, PIREP)
+●	Global NOTAM data with AirGrid-proprietary filtering and relevance scoring
+●	Routing intelligence based on winds-aloft, FL optimization, and ATC route data
+●	FMS data feed (AFDF) for direct FMC integration
+●	Cargo monitoring (ULD tracking, temperature sensor integration, DG status)
+●	Fuel intelligence (real-time burn monitoring, P03 bias, divert alerts)
+●	Post-flight analytics (fuel actuals vs. plan, CI85 variance, trip time performance)
+8.2 AirGrid Dashboard — Dispatcher View
+The dispatcher's AirGrid dashboard provides full situational awareness across all active VANTIS flights and the complete dispatch workflow for planned departures. Key dashboard modules:
+●	Active Flight Map: Real-time display of all VNT-callsign flights, with position, altitude, fuel state, and cargo status overlay.
+●	Release Workflow Panel: Flight release queue — pending, active, and completed releases. Allows dispatcher to create, edit, and sign releases.
+●	Weather Intelligence Panel: Aggregated weather for all active routes. SIGMETs and significant weather are highlighted. One-click weather package generation per flight.
+●	NOTAM Filter: Route-specific NOTAM filter showing only operationally relevant NOTAMs, ranked by criticality.
+●	Cargo Monitor: ULD status for all active flights. TCL temperature sensor readings in real-time. DGR cargo status flags.
+●	Crew Messaging: AirGrid Messaging Protocol (AMP) inbox and outbox for all active crew communications.
+●	IROPS Panel: Flags any flight with an active IROPS status and presents available recovery options.
+8.3 AirGrid Dashboard — Pilot View
+The pilot's AirGrid dashboard is a streamlined, flight-focused interface presenting the information the crew needs before, during, and after flight:
+●	Pre-Flight Brief: Current signed release (when in ACTIVE status), weather summary, NOTAM highlights, cargo status summary, and dispatcher special notes.
+●	Fuel Summary: Current fuel plan breakdown (Trip / Contingency / Alternate / Reserve / Additional / Total Block), with P03 bias applied and displayed.
+●	Cargo Status: ULD count, TCL sensor status, DGR notification flags.
+●	Route & FMS Feed: Filed route string, AFDF status, step climb profile advisory.
+●	AMP Inbox: Crew-dispatch messaging; mandatory check-in submission buttons for Pushback, TOC, TOD, and Post-Landing.
+●	FUELREP: 30-minute fuel state entry interface.
+●	PIREP Submission: Post-flight PIREP form for completion within 2 hours of block-in.
+8.4 AirGrid Route Intelligence
+AirGrid Route Intelligence automates the most data-intensive component of dispatch planning — route selection. Using a multi-variable optimization engine, AirGrid:
+●	Computes great-circle and winds-optimized routing between any city pair in the VANTIS network
+●	Assesses multiple flight level options and presents fuel/time trade data per FL option
+●	Filters NOTAMs to identify route-restricting items and presents alternate routings where required
+●	Integrates OTS (NAT/PACOTS) track data where applicable for trans-oceanic routings
+●	Provides an efficiency score for each route option, enabling the dispatcher to make a data-driven selection decision
+●	Generates the ATC-format route string for direct filing into the flight plan
+8.5 AirGrid Fuel Intelligence
+AirGrid Fuel Intelligence is the fuel computation and monitoring engine at the core of VANTIS operations. Key capabilities:
+●	Block Fuel Computation: Full fuel plan per Section 4.3, with P03 bias automatically applied. Outputs a complete fuel breakdown for the dispatcher to review and include in the release.
+●	Real-Time Burn Monitoring: During flight, AirGrid tracks reported fuel state (via FUELREP check-ins) against the planned fuel curve. Deviations are flagged visually on the dispatcher dashboard.
+●	Divert Trigger Alerts: AirGrid automatically calculates the divert decision fuel state for the current position and destination weather. If fuel on board approaches the divert trigger threshold, an alert is issued to both the pilot dashboard and dispatcher dashboard.
+●	P03 Bias Integration: The 3% P03 buffer is incorporated in every fuel computation and is visible in the fuel breakdown as a separate line item for transparency.
+8.6 AirGrid Cargo Monitor
+AirGrid Cargo Monitor tracks the complete cargo picture from load planning to arrival:
+●	ULD Tracking: Every ULD registered in the VANTIS system has a unique ID, type, weight, and cargo category. Cargo Monitor displays the ULD layout for each active aircraft.
+●	Temperature Sensor Integration: TCL ULDs with sensor capability transmit temperature data to AirGrid Cargo Monitor at regular intervals. Out-of-range readings trigger automated alerts.
+●	DG Status: All DGR cargo is flagged in Cargo Monitor with class, quantity, and stowage location. The system cross-checks DGR co-loading compatibility and flags any incompatible combinations.
+●	Cargo Door Status: Cargo Monitor receives door open/close status from ground crew input and displays it to dispatcher and pilot. A door open indication at push-back time blocks the release from going ACTIVE until resolved.
+8.7 AirGrid Weather Feed
+AirGrid aggregates weather data from multiple sources into a consolidated feed for dispatchers and pilots:
+●	METAR: Surface observations for all VANTIS network airports, updated every 30 minutes or on special observations.
+●	TAF: Terminal area forecasts for all VANTIS network airports, updated at standard ICAO intervals.
+●	SIGMET/AIRMET: AirGrid ingests and maps all active SIGMETs and AIRMETs, displaying them as overlays on the active flight map. Route intersection alerts are generated automatically.
+●	PIREP: Pilot weather reports aggregated from VATSIM and real-world data sources, presented for dispatcher and crew awareness.
+●	Winds Aloft: Global winds-aloft data at all flight levels, integrated into the Route Intelligence engine and displayed as wind overlay on the route map.
+8.8 AirGrid Post-Flight Analytics
+AirGrid's post-flight analytics module generates a performance report for every complete VANTIS flight:
+●	Fuel Actuals vs. Plan: Compares actual fuel burn (from FUELREP check-ins and post-landing fuel report) against the planned fuel curve at each check-in point. P03 bias effectiveness is assessed.
+●	Trip Time Performance: Compares actual block-to-block time against planned block time. Identifies time variance and its source (ATC, route deviation, weather avoidance).
+●	CI85 Variance Report: Measures actual speed schedule performance against the CI85 target. Flags sectors where CI varied significantly from the standard.
+●	Step Climb Efficiency: Assesses whether step climbs were executed at optimal fuel weight thresholds per the AirGrid step climb advisory.
+●	Crew Performance Metrics: Stabilized approach compliance, FUELREP submission compliance, check-in completeness.
+8.9 Data Integrity and Fallback Procedures
+In the event that AirGrid is partially or fully unavailable, the following fallback procedures apply:
+
+AirGrid System	Fallback Procedure
+Flight Release Platform	Manual release form (email to Director of Dispatch, PDF template). Flight may not depart until manual release is countersigned and receipted by PIC.
+FMS Data Feed (AFDF)	Manual FMC entry by crew from paper/PDF AirGrid release. PIC confirms all FMC entries against manual release before departure.
+Weather Feed	Crew and dispatcher use Simbrief/NOAA/VATSIM METARs directly. Weather package assembled manually and appended to manual release form.
+Fuel Computation	Manual calculation using VANTIS fuel policy (Section 4.3) and 777F performance tables. P03 bias must be manually applied (+3% to computed block fuel).
+Cargo Monitor	Physical paper ULD manifest used. Ground supervisor provides written cargo status confirmation to PIC before doors close.
+Post-Flight Sync	Crew completes manual PIREP and emails to Director of Dispatch within 2 hours. AirGrid SES report is filed manually once platform is restored.
+
+
+CAUTION
+AirGrid fallback operations place significantly higher workload on dispatchers and crews. All fallback operations must be flagged to the VP Technology immediately upon AirGrid outage detection so that restoration can be prioritized.
+
+
+Section 9 — Pilot Expectations & Standards
+
+9.1 VANTIS Pilot Qualifications and Ratings
+VANTIS Air Cargo requires all pilots operating the Boeing 777F under the VNT callsign to meet the following minimum qualifications on the VATSIM network:
+●	Minimum VATSIM Pilot Rating: P1 (PPL) for First Officer positions; P3 (IR) minimum for Pilot-in-Command operations on the 777F.
+●	VANTIS Type Qualification: Completion of the VANTIS 777F type qualification course, conducted via the VANTIS training portal and AirGrid learning module, is required before solo PIC operations.
+●	SOP Acknowledgment: All pilots must read and formally acknowledge this SOP document via AirGrid before being authorized to fly under VNT callsign.
+●	AirGrid Proficiency: Pilots must demonstrate competent use of the AirGrid Pilot Dashboard, including pre-flight briefing review, check-in submission, FUELREP entry, and PIREP completion.
+9.2 Pilot-in-Command Authority and Responsibilities
+The Pilot-in-Command (Captain) is the final authority on the safety and conduct of the aircraft. PIC responsibilities include:
+●	Acceptance and execution of the AirGrid flight release
+●	Command of the flight crew and all aircraft operations from pre-flight to post-flight
+●	The sole authority to deviate from any AirGrid dispatch instruction on safety grounds (deviation must be documented)
+●	Responsibility for all mandatory check-in transmissions and PIREP submission
+●	Ensuring compliance with this SOP by all crew members under their command
+●	Acting as the primary interface between the flight crew and dispatch during all flight phases
+9.3 First Officer Responsibilities
+The First Officer (FO) operates as a full crew resource and holds the following responsibilities:
+●	Completion of all PM (Pilot Monitoring) duties as assigned by the PIC
+●	Active participation in threat identification, CRM, and cockpit decision-making
+●	Authority and responsibility to challenge any PIC decision that appears unsafe or contrary to VANTIS SOPs
+●	Management of AirGrid communications, FUELREP submissions, and check-in messages when assigned by PIC
+●	Assumption of PIC duties if the Captain becomes incapacitated (VATSIM context: if the Captain disconnects unexpectedly, the FO notifies ATC and dispatch and maintains the flight as PIC)
+9.4 Professionalism Standards
+VANTIS maintains the highest standard of professional conduct on the VATSIM network. This is the standard against which all VNT-callsign operations are measured:
+●	Callsign Discipline: Always use the full VNT + 3-digit flight number format on all ATC communications (e.g., VNT241). Do not use informal callsign variants.
+●	Position Reports: Transmit position reports at all required points (oceanic tracks, radar handoff, approaching destination FIR).
+●	ATC Coordination: Proactively communicate any deviations, weather avoidance requests, or performance limitations to ATC promptly and professionally.
+●	Conduct: No disrespectful, aggressive, or unprofessional conduct toward ATC, other VATSIM pilots, or VANTIS colleagues in any communications channel.
+9.5 Continuous Learning
+VANTIS invests in the continuous development of all crew members. The following requirements apply:
+●	AirGrid Debrief Review: All pilots must review their post-flight AirGrid analytics report within 48 hours of flight completion. Any CI85 variance, fuel deviation, or stabilized approach issue must be understood and actioned.
+●	SOP Review Cycle: All pilots must complete a full re-read of this SOP annually and acknowledge the current revision in AirGrid.
+●	Training Flights: VANTIS encourages regular training flights with designated check captains for proficiency maintenance, particularly on approach procedures, emergency drills, and AirGrid platform usage.
+●	Revision Amendments: When an AirGrid Amendment Bulletin (AAB) is issued, all pilots must read, acknowledge, and be proficient in the amendment within 7 days of publication.
+
+9.6 Dispatch Cooperation
+The VANTIS dispatch-driven operation model requires genuine cooperation between crews and dispatchers. The following principles govern this relationship:
+●	Pilots may not override a dispatch decision without a documented safety justification. Preference, habit, or convenience are not safety justifications.
+●	All disagreements between a pilot and dispatcher must be logged in AirGrid as a Crew-Dispatch Disagreement (CDD) record. CDDs are reviewed by the Director of Dispatch to identify systemic issues.
+●	Pilots are encouraged to provide constructive feedback on dispatch plans, routing, and fuel policy through the AirGrid debrief system. Feedback is welcomed and reviewed by dispatch leadership.
+●	Dispatch cooperates with crew requests where operationally sound. A dispatcher may not deny a reasonable pilot request without documented justification.
+9.7 VANTIS Callsign and Flight Number Standards
+VANTIS flights are conducted under the following callsign format:
+●	Format: VNT followed by a 3-digit flight number, with no spaces or additional characters. Example: VNT241.
+●	Flight numbers are assigned by dispatch and published in the AirGrid route schedule. Crews must not self-assign flight numbers.
+●	On VATSIM, the callsign is filed as VNT241 and spoken as "VANTIS Two Four One" in all radio communications.
+●	The ICAO designator for VANTIS Air Cargo is VNT.
+9.8 Flight Log Submission Requirements
+The AirGrid PIREP (Pilot Report) is the formal flight log submission for every VANTIS flight. Requirements:
+●	Submission Deadline: PIREP must be submitted via AirGrid within 2 hours of block-in.
+●	Required Fields: Flight ID, actual departure/arrival times, fuel on board at departure, fuel remaining on arrival, route flown (any deviations noted), approach type flown, any abnormalities or safety events, crew debrief comments.
+●	Failure to submit a PIREP within the deadline is logged in AirGrid and will be raised in the monthly operational audit.
+●	Three consecutive PIREP failures constitute grounds for suspension of VANTIS flying privileges pending a meeting with the Director of Operations.
+
+Section 10 — Abnormal & Emergency Procedures
+
+10.1 Philosophy: Aviate, Navigate, Communicate
+VANTIS emergency response is governed by the universal aviation priority sequence: Aviate, Navigate, Communicate. This sequence is always observed in that order:
+●	Aviate: Maintain control of the aircraft. No other action takes priority over keeping the aircraft flying.
+●	Navigate: Know where you are and where you are going. Establish the aircraft on a safe flight path before communicating.
+●	Communicate: Notify ATC, then dispatch. Communication enables support — but only after the aircraft is under control.
+All emergency procedures in this section follow this sequence. Checklists support — but do not replace — pilot judgment. If a checklist item would worsen the situation, use judgment to deviate.
+10.2 Engine Failure — Takeoff and En Route
+Engine Failure at Takeoff (V1 and below)
+
+WARNING
+Below V1, the decision to reject the takeoff is mandatory on engine failure. Above V1, the decision to continue is mandatory. Do not attempt a rejected takeoff above V1.
+
+●	Below V1: Throttle to idle → maximum braking → maintain directional control → RTO checklist (Section 10.11).
+●	Above V1 (continue): Maintain directional control with rudder → rotate at VR → climb at V2 → gear up → positive climb established → identify and confirm failed engine (confirm, then shut down per EICAS guidance) → Engine Failure checklist (QRC Appendix A).
+Engine Failure En Route
+●	Aviate: autopilot to heading mode; maintain altitude.
+●	Identify failed engine via EICAS. Confirm via second indicator before action.
+●	Execute Engine Shutdown checklist.
+●	Navigate: assess single-engine drift-down ceiling. Descend to MEA if cruise altitude cannot be maintained.
+●	Communicate: declare MAYDAY or PAN-PAN to ATC as appropriate. Notify dispatch via AirGrid FREERPT.
+●	Plan divert to nearest suitable airport considering single-engine performance, weather, and fuel state.
+10.3 Hydraulic System Abnormalities
+The 777F is equipped with a triple-redundant hydraulic system (Left, Center, Right). Loss of one system is abnormal but manageable. Loss of two or more systems is an emergency.
+●	EICAS hydraulic advisory/warning identifies the affected system.
+●	Execute Hydraulic System Non-Normal checklist.
+●	Assess which flight control and system functions are affected. The 777F fly-by-wire system includes hydraulic isolation and redundant actuator paths — assess what remains available.
+●	Notify ATC of hydraulic abnormality and aircraft status. Plan for destination or divert as appropriate.
+●	Anticipate degraded braking (landing with reduced hydraulic power — confirm brake accumulator availability) and potential nosewheel steering limitations.
+●	Declare emergency if second hydraulic system is lost.
+10.4 Pressurization Failure — Emergency Descent
+●	Don oxygen masks immediately (both crew members simultaneously).
+●	Establish communications on oxygen: "Crew oxygen masks on."
+●	Autopilot: heading mode, select emergency descent altitude (MEA or 10,000 ft, whichever is higher).
+●	Thrust levers to idle. Extend speed brakes.
+●	Descend at maximum operating speed (VMO/MMO) or emergency descent speed per QRC.
+●	Declare emergency to ATC. Request priority descent clearance.
+●	Notify dispatch via AirGrid once below 10,000 ft and oxygen masks removed.
+●	Execute Cabin Altitude Warning checklist when stabilized.
+
+
+
+
+WARNING
+Time of Useful Consciousness (TUC) at FL400 is approximately 15–20 seconds. Oxygen mask donning and emergency descent initiation must be immediate. There is no time to deliberate.
+
+10.5 Electrical Emergency
+●	EICAS electrical warning identifies the fault. Note which buses are affected.
+●	Execute Electrical system Non-Normal checklist.
+●	The 777F has extensive electrical redundancy including two main generators, APU generator, and RAT (Ram Air Turbine) for emergency power.
+●	If total AC power loss occurs, the RAT deploys automatically. The aircraft retains essential bus power for critical systems.
+●	Reduce electrical load per checklist to prevent overload of remaining sources.
+●	Notify ATC and dispatch. Assess suitability of intended destination with degraded avionics.
+10.6 Cargo Fire / Smoke Warning
+The 777F main deck cargo compartment is equipped with a fire detection and Halon suppression system. Cargo fire is one of the highest risk emergency categories in wide-body freighter operations.
+●	EICAS CARGO FIRE warning alert: identify compartment (main deck, lower forward, lower aft).
+●	Don oxygen masks if smoke is present in the cockpit.
+●	Execute Cargo Fire checklist immediately.
+●	Discharge fire suppression agent (Halon) to affected compartment.
+●	Declare MAYDAY to ATC. Initiate divert to nearest suitable airport immediately — do not delay.
+●	Notify dispatch via AirGrid FREERPT: "CARGO FIRE — DIVERTING — MAYDAY DECLARED."
+●	Plan for emergency services on arrival. Brief via ATC fire notification.
+
+
+
+
+WARNING
+Cargo fire in a freighter is a life-threatening emergency with time-critical urgency. The 777F fire suppression system provides limited suppression time. Immediate divert decision is mandatory. Do not continue to the planned destination to "assess" the situation.
+
+10.7 Medical Emergency (VATSIM Context)
+In the VATSIM simulation environment, a "medical emergency" refers to a real-world issue affecting the pilot's ability to continue flying:
+●	The affected crew member notifies the other crew member immediately.
+●	The capable crew member assumes full PIC authority.
+●	Notify ATC: "[callsign] experiencing crew incapacitation, requesting priority handling."
+●	If the sole pilot operating must disconnect from VATSIM due to a real-world issue: notify ATC before disconnecting; set autopilot to stable configuration; notify dispatch via AirGrid FREERPT.
+10.8 TCAS RA Response
+●	TCAS RA is issued: respond immediately — do not wait for ATC instruction.
+●	Follow the RA advisory (CLIMB / DESCEND / MAINTAIN) precisely and promptly.
+●	Advise ATC: "[callsign] responding to TCAS RA, [climbing/descending] to [altitude]."
+●	Maintain RA response until the "CLEAR OF CONFLICT" annunciation is received.
+●	Return to cleared altitude and advise ATC that conflict is resolved.
+●	File an AirGrid SES report for any TCAS RA event.
+
+CAUTION
+On VATSIM, TCAS RA events may occur due to network position errors. Regardless of cause, the RA must be followed. Report any TCAS RA to ATC and dispatch and file an AirGrid SES.
+
+10.9 Windshear Escape Maneuver
+●	Windshear alert received (GPWS/EGPWS windshear warning or flight crew recognition).
+●	Apply maximum thrust immediately — TOGA. Call "WINDSHEAR — GO AROUND."
+●	Establish and maintain windshear escape pitch attitude (initially 15° nose up — do not follow flight director if it commands lower).
+●	Do not retract flaps or gear until clear of windshear and positive climb established.
+●	Advise ATC: "[callsign] executing windshear escape maneuver, going around."
+●	Notify dispatch after situation is resolved.
+10.10 Emergency Fuel — Minimum Fuel and MAYDAY FUEL
+Refer to Section 7.8 for fuel state thresholds. Emergency fuel procedures:
+●	MINIMUM FUEL: Notify ATC: "[callsign] minimum fuel, request priority handling." Notify dispatch via AirGrid FUELREP flagged MINFUEL. Plan direct routing to destination or nearest suitable airport.
+●	MAYDAY FUEL: Declare MAYDAY to ATC: "MAYDAY- MAYDAY-MAYDAY — [callsign] — MAYDAY FUEL — [position] — [altitude] — requesting immediate landing [airport]." Land at the nearest suitable airport. Notify dispatch via AirGrid URGENTLY.
+10.11 Rejected Takeoff (RTO)
+●	Decision to reject made at or below V1.
+●	Pilot Flying calls "STOP" and simultaneously retards thrust levers to idle.
+●	Apply maximum braking. Arm and deploy speed brakes. Select maximum reverse thrust.
+●	Maintain directional control on centerline.
+●	Advise ATC: "[callsign] rejected takeoff, [runway], stopping." Do not vacate runway until certain aircraft has stopped safely and brake condition assessed.
+●	Notify dispatch via AirGrid FREERPT: "RTO — STOPPING ON [RUNWAY] — REASON: [state reason]."
+●	Once stopped, assess brake condition. Hot brakes may require extended cooling before taxi. Do not set parking brake with hot brakes — Halon bottle may activate.
+10.12 Go-Around and Missed Approach
+●	PF calls "GO AROUND" — advance thrust to TOGA simultaneously.
+●	Rotate to go-around pitch attitude (approximately 8–10°).
+●	Confirm positive rate of climb — call "GEAR UP."
+●	Follow published missed approach procedure unless ATC instructs otherwise.
+●	At acceleration altitude — reduce to climb thrust, configure flaps on schedule.
+●	Advise ATC: "[callsign] going around, [reason]."
+●	Notify dispatch via AirGrid FREERPT with go-around reason and current fuel state.
+●	Assess fuel state against alternate requirements. If fuel permits a second approach, coordinate with ATC and dispatch. If not, proceed to alternate.
+10.13 AirGrid Abnormal: Platform Failure Contingency
+In the event of an AirGrid platform failure during an active flight:
+●	Continue the flight normally using the paper/digital release already accepted before departure.
+●	Revert to manual fuel state tracking using the last known fuel curve from the AirGrid release. Continue 30-minute fuel checks using the FMC fuel display.
+●	Notify dispatch by alternative means (Discord, email) of the AirGrid failure and your current position/fuel state.
+●	At destination, complete a manual PIREP (email to Director of Dispatch) as per Section 8.9 fallback procedures.
+●	Notify VP Technology via Discord of the AirGrid failure event immediately.
+10.14 VATSIM Network Failure During Flight
+●	If VATSIM network failure is detected (ATC frequency silent, no traffic visible), attempt to reconnect immediately via the VATSIM pilot client.
+●	Before disconnecting intentionally: notify ATC on the current frequency — "[callsign] experiencing network difficulty, may disconnect momentarily." Set autopilot to a safe configuration.
+●	Attempt reconnection within 5 minutes. If unsuccessful, the flight is logged as an interrupted flight in AirGrid.
+●	Upon reconnection, re-establish contact with ATC, report current position, and request re-clearance if required.
+●	Notify dispatch via AirGrid FREERPT once reconnected. Include time of disconnect, position at disconnect, and reconnect status.
+●	Submit AirGrid SES report if the network failure caused a safety-relevant event (loss of ATC separation, inability to communicate during critical phase of flight).
+
+Appendix A — Boeing 777F Quick Reference Checklist (QRC)
+
+This QRC presents the abbreviated checklist flow for standard 777F operations. This is a flow reference — the full Normal Procedures checklist is used challenge-and-response. All items must be completed in sequence unless circumstances dictate otherwise.
+A.1 Pre-Flight / Cockpit Preparation
+
+Action	Response
+Battery switch	ON — voltage checked
+Ground power / APU	ESTABLISHED
+IRS selectors	NAV — alignment initiated
+Fuel quantity	CHECKED — matches release
+FMC/MCDU initialization	COMPLETE — route, CI85, perf data loaded
+EFIS setup	COMPLETE — altimeters QNH set
+AirGrid release review	COMPLETE — ACTIVE status confirmed
+Crew briefing	COMPLETE
+
+A.2 Before Start
+
+Action	Response
+Start clearance	RECEIVED — [runway and route]
+Parking brake	SET
+Fuel control switches	CUTOFF
+Hydraulic pump switches	AUTO/ON
+Engine start selectors	SET — auto or manual as req'd
+AirGrid pushback check-in	TRANSMITTED
+
+A.3 Engine Start
+
+Action	Response
+Engine 2 start — selector START	N2 RISING
+At 25% N2 — fuel control to RUN	EGT RISING — STABLE
+Engine 2 parameters	NORMAL
+Engine 1 start — repeat	NORMAL
+APU bleed — OFF; engine bleed — ON	SET
+Generator switches	ON
+
+A.4 Before Takeoff
+
+Action	Response
+Flaps	[SELECTED SETTING] — GREEN LIGHT
+V-speeds (V1, VR, V2)	SET — confirmed on PFD
+Cost Index	CI85 — CONFIRMED
+Transponder	ALT — squawk [code]
+Weather radar	ON — tilt set
+TCAS	TA/RA
+Flight controls	CHECKED — full and free
+Cabin cargo status	DOORS CLOSED AND LOCKED
+
+A.5 After Takeoff / Climb
+
+Action	Response
+Gear	UP — lights out
+Flaps	RETRACTED on schedule
+Thrust reduction altitude	CLIMB THRUST SET
+Autopilot	ENGAGED — LNAV/VNAV
+Climb speed schedule	CI85 SCHEDULE — CONFIRMED
+
+A.6 Cruise
+
+Action	Response
+SELCAL (oceanic)	SET AND TESTED
+HF radio (oceanic)	TUNED — frequency [xxx]
+AirGrid TOC check-in	TRANSMITTED
+FUELREP — every 30 minutes	SUBMITTED via AirGrid
+Step climb advisory	MONITOR AirGrid; coordinate with ATC
+
+A.7 Descent Preparation
+
+Action	Response
+Destination ATIS	RECEIVED — runway [xx], approach [type]
+Altimeter	QNH [xxxx] — SET
+Approach briefing	COMPLETE
+AirGrid TOD check-in	TRANSMITTED
+Speed managed descent	VNAV — active
+Fuel vs. alternate check	SUFFICIENT — alternate [ICAO]
+
+A.8 Approach
+
+Action	Response
+Flaps — approach setting	SET — green light
+Gear	DOWN — 3 green
+Landing flaps	SET — Vref confirmed
+Autobrake	BTV-2 (or as required)
+Stabilization gate (1,000 ft IMC)	STABLE — speed, path, config, thrust
+
+
+
+
+
+A.9 Landing
+
+Action	Response
+Thrust reversers at touchdown	DEPLOYED — symmetrical
+Autobrake	ACTIVE — decel confirmed
+Speed brakes	DEPLOYED — AUTO confirmed
+Runway clear — contact Ground	GROUND CONTACTED
+
+A.10 After Landing / Shutdown
+
+Action	Response
+Flaps	RETRACTED
+Spoilers	DISARMED
+APU start (if required)	INITIATED
+Engines — shutdown at blocks	FUEL CONTROL CUTOFF — N2 decaying
+Cargo door status	CONFIRMED via AirGrid Cargo Monitor
+AirGrid post-landing check-in	TRANSMITTED
+AirGrid post-flight sync	CONFIRMED COMPLETE
+PIREP submission	DUE WITHIN 2 HOURS
+
+
+
+Appendix B — AirGrid Flight Release Template
+
+This is the standard AirGrid Flight Release template. All fields must be completed by the dispatcher prior to PIC acceptance. This document becomes a controlled operational record upon activation.
+VANTIS AIR CARGO — AIRGRID FLIGHT RELEASE  |  VAG-REL
+
+
+FLIGHT ID (VNT + FLIGHT NO.) VNT _____	DATE (UTC)
+AIRCRAFT REGISTRATION	AIRCRAFT TYPE Boeing 777F
+ORIGIN (ICAO)	DESTINATION (ICAO)
+FILED ATC ROUTE
+PRIMARY ALTERNATE (ICAO)	SECONDARY ALTERNATE (if req'd)
+
+FUEL PLAN SUMMARY
+
+Fuel Component	Weight (kg)	Notes
+Trip Fuel		AirGrid CI85 computed
+Contingency (5%)		5% of trip fuel
+Alternate Fuel		To primary alternate
+Final Reserve (30 min)		1,500 ft AGL, ISA
+Additional Fuel		Dispatcher discretion
+P03 Bias (+3%)		Applied to block total
+TOTAL BLOCK FUEL		Fuel on board at departure
+
+WEIGHT & BALANCE
+
+Item	Value
+Payload Weight (kg)	
+Zero Fuel Weight (ZFW) (kg)	
+Takeoff Weight (TOW) (kg)	
+MTOW Compliance	☐ CONFIRMED WITHIN MTOW
+CG Position (%MAC)	
+CG Within Envelope	☐ CONFIRMED
+
+WEATHER BRIEF SUMMARY
+
+Location	METAR/TAF Summary	Status
+Departure		☐ ACCEPTABLE
+En Route SIGMET		☐ NOTED / ☐ NIL
+Destination		☐ ACCEPTABLE
+Primary Alternate		☐ ACCEPTABLE
+
+NOTAM SUMMARY
+AirGrid-Filtered Relevant NOTAMs:
+
+SPECIAL OPERATIONS NOTES
+
+ETOPS ASSESSMENT (if applicable)
+
+ETOPS Required: ☐ YES   ☐ NO	Authority: ETOPS-180
+ETOPS Alternate 1 (ICAO):	
+ETOPS Alternate 2 (ICAO):	
+ETOPS Critical Systems: ☐ SERVICEABLE	Critical ETOPS Fuel: _____ kg
+
+
+DISPATCHER NAME & ID  DISPATCHER DIGITAL SIGNATURE  TIME (UTC)	PILOT-IN-COMMAND NAME & ID  PIC ACCEPTANCE SIGNATURE  TIME (UTC)
+
+RELEASE STATUS:   ☐ PENDING PILOT ACCEPTANCE    ☐ ACTIVE    ☐ COMPLETED    ☐ CANCELLED
+
+
+Appendix C — VANTIS Kneeboard Card Pack
+
+The following quick-reference cards are designed for use during flight. Print and carry on all VANTIS operations.
+
+Card 1 — VANTIS Standard Callsign Format
+
+Format: VNT + 3-digit flight number
+Example: VNT241
+Spoken: "VANTIS Two Four One"
+ICAO Designator: VNT
+Rules:
+●	Always use full format — no abbreviations
+●	Flight numbers assigned by dispatch — do not self-assign
+●	Callsign used on all ATC, AirGrid, and VATSIM communications
+
+
+Card 2 — CI85 / P03 Fuel Bias Reminder
+
+Standard Cost Index: CI85 — set in FMC PERF INIT page on every flight.
+Standard Fuel Bias: P03 — +3% applied by AirGrid to all block fuel computations. Pre-applied — do not double-count.
+
+Setting	Value	Description
+Cost Index	CI85	Balanced fuel/time for 777F long-haul
+Fuel Bias	+3% (P03)	Operational buffer — auto-applied by AirGrid
+
+Deviations from CI85 require dispatcher authorization and release notation.
+
+
+Card 3 — Fuel State Thresholds
+
+
+State	Threshold	Action
+Comfortable	>30 min above Final Reserve	Normal ops
+MINIMUM FUEL	Final Reserve + Alternate remaining	Declare to ATC; notify dispatch FUELREP; expedite
+MAYDAY FUEL	Final Reserve only remaining	MAYDAY to ATC; land at nearest suitable airport IMMEDIATELY
+
+Final Reserve = 30 min holding at 1,500 ft AGL, ISA
+
+
+Card 4 — AirGrid Mandatory Check-In Points
+
+
+Gate	Trigger	Include
+PUSHBACK	Prior to / at pushback	FOB, cargo confirmed, release accepted
+TOC	Level-off at cruise altitude	Actual FOB, cruise FL, ETA dest, deviations
+TOD	Commence descent	FOB, wx confirmed, alternate status, ATIS
+POST-LANDING	Within 10 min of block-in	Fuel remaining, actual block time, abnormalities
+
+Plus: FUELREP every 30 minutes in cruise via AirGrid.
+
+
+Card 5 — Emergency Memory Items
+
+ENGINE FIRE (memory):
+6.	Affected throttle → IDLE
+7.	Confirm engine → SHUT DOWN (fuel control CUTOFF)
+8.	Fire handle → PULL → ROTATE (discharge agent)
+9.	Divert if fire persists → MAYDAY to ATC
+CARGO FIRE (memory):
+10.	Oxygen masks → DON
+11.	Halon discharge → ACTIVATE (affected compartment)
+12.	MAYDAY → ATC immediately
+13.	DIVERT → nearest suitable airport — no delay
+EMERGENCY DESCENT (memory):
+14.	Oxygen masks → DON
+15.	Thrust → IDLE; Speedbrake → EXTEND
+16.	Descend at VMO/MMO to MEA or 10,000 ft
+17.	MAYDAY → ATC; notify dispatch when below 10,000 ft
+
+
+
+
+
+
+Card 6 — VATSIM Emergency Phraseology
+
+
+Condition	Phraseology
+MAYDAY	"MAYDAY-MAYDAY-MAYDAY — [ATC] — [callsign] — [nature] — [position] — [altitude] — [intentions]"
+PAN-PAN	"PAN-PAN PAN-PAN PAN-PAN — [ATC] — [callsign] — [nature] — [position] — [request]"
+MINIMUM FUEL	"[callsign] — MINIMUM FUEL — request priority handling"
+MAYDAY FUEL	"MAYDAY-MAYDAY-MAYDAY — [ATC] — [callsign] — MAYDAY FUEL — [position] — request immediate landing [airport]"
+Squawk Emergency	Squawk 7700 (General) / 7600 (Comms fail) / 7500 (Unlawful)
+Guard Freq	121.5 MHz (monitor / call if no ATC)
+
+
+
+Appendix D — VANTIS Route Network Overview
+
+The following table presents the representative VANTIS global cargo route network as operated on the VATSIM network. Route codes are used in AirGrid scheduling and release filing. Block times are typical estimates; actual times vary with winds and routing.
+
+Route Code	Origin (ICAO)	Destination (ICAO)	Segment Type	Typical Block Time	ETOPS Required
+VNT-101	KORD (Chicago O'Hare)	EGLL (London Heathrow)	Transatlantic	8h 30m	Yes — ETOPS-180
+VNT-120	KLAX (Los Angeles)	VHHH (Hong Kong)	Trans-Pacific	12h 45m	Yes — ETOPS-180
+VNT-135	KLAX (Los Angeles)	RJAA (Tokyo Narita)	Trans-Pacific	11h 00m	Yes — ETOPS-180
+VNT-150	KORD (Chicago O'Hare)	OMDB (Dubai)	Transatlantic / Middle East	13h 15m	Yes — ETOPS-180
+VNT-172	EGLL (London Heathrow)	VHHH (Hong Kong)	Europe-Asia	11h 30m	No
+VNT-185	OMDB (Dubai)	WSSS (Singapore Changi)	Middle East-SE Asia	7h 00m	No
+VNT-200	VHHH (Hong Kong)	YSSY (Sydney)	Asia-Pacific	9h 15m	Yes — ETOPS-180
+VNT-215	KORD (Chicago O'Hare)	SBGR (São Paulo Guarulhos)	Transatlantic South	10h 30m	Yes — ETOPS-180
+VNT-230	EGLL (London Heathrow)	FAOR (Johannesburg O.R. Tambo)	Europe-Africa	10h 45m	No
+VNT-241	EDDL (Düsseldorf)	OMDB (Dubai)	Europe-Middle East	6h 15m	No
+VNT-258	UUEE (Moscow Sheremetyevo)	RJAA (Tokyo Narita)	Polar / Asia	9h 00m	No (polar track)
+VNT-270	KLAX (Los Angeles)	WSSS (Singapore Changi)	Trans-Pacific	14h 00m	Yes — ETOPS-180
+VNT-285	SBGR (São Paulo)	FAOR (Johannesburg)	South Atlantic	8h 45m	Yes — ETOPS-180
+VNT-300	VHHH (Hong Kong)	WSSS (Singapore Changi)	Regional Intra-Asia	3h 30m	No
+VNT-315	KORD (Chicago O'Hare)	KLAX (Los Angeles)	Domestic Trunk	4h 15m	No
+
+
+NOTE
+Route codes beginning VNT-1xx are North Atlantic and transatlantic operations. VNT-2xx are Southern Hemisphere and inter-regional. VNT-3xx are regional / short-haul sectors. All routes are subject to AirGrid Route Intelligence optimization and may deviate from standard tracks due to SIGMET, ATC, or winds-aloft conditions.
+
+
+Appendix E — Glossary of Terms
+
+The following terms are used throughout this SOP. All personnel are required to be familiar with each definition.
+
+Term / Abbreviation	Definition
+AirGrid	VANTIS's proprietary Operational Intelligence Platform integrating dispatch, weather, routing, FMS data feed, cargo monitoring, and post-flight analytics. The central operational system of VANTIS Air Cargo.
+ACARS	Aircraft Communications Addressing and Reporting System. The real-world digital communication system between aircraft and ground stations, replicated within VANTIS operations via Pegasus ACARS and the AirGrid Messaging Protocol (AMP).
+ATC	Air Traffic Control. The authority responsible for providing separation and traffic management services to aircraft in controlled airspace, on the VATSIM network replicated by virtual controllers.
+CI / Cost Index	Cost Index. A number entered into the FMC that determines the aircraft's speed schedule by balancing the relative cost of fuel burn against the cost of time. Higher CI = faster, more fuel; lower CI = slower, less fuel.
+CI85	The VANTIS standard Cost Index of 85, established as the default for all Boeing 777F operations. Represents the optimal balance of fuel efficiency and trip time for long-haul cargo missions.
+CRM	Crew Resource Management. The effective use of all available resources — crew, ATC, systems, AirGrid — to achieve safe and efficient flight operations.
+DG / DGR	Dangerous Goods / Dangerous Goods Regulations. Hazardous materials subject to IATA DG classification, requiring special declaration, stowage, and crew notification procedures.
+ETOPS	Extended-range Twin-engine Operational Performance Standards. Authorization for twin-engine aircraft to fly routes that take the aircraft beyond a specified time from a diversion airport. VANTIS holds ETOPS-180 authority.
+FL	Flight Level. Altitude expressed in hundreds of feet above the international standard pressure datum (1013.25 hPa / 29.92 inHg). Example: FL380 = 38,000 ft.
+FMC	Flight Management Computer. The onboard computer that manages navigation, performance, and route data. On the 777F, interfaced with the MCDU. The AirGrid AFDF feeds data directly to the FMC.
+Fuel Bias P03	The VANTIS standard operational fuel buffer of +3% applied to all 777F FMS-computed block fuel figures. Designated "P03" (Plus 3%). Applied automatically by AirGrid to account for simulation fuel computation variances.
+IROPS	Irregular Operations. Any unplanned event that disrupts the normal scheduled operation of a flight, including weather, technical, ATC, or network issues.
+MTOW	Maximum Takeoff Weight. The maximum certified weight at which an aircraft may commence takeoff. For the 777F: 347,450 kg.
+OFP	Operational Flight Plan. The complete dispatch document covering route, fuel, performance, and operational data for a specific flight. Equivalent to the AirGrid Flight Release Package in VANTIS context.
+PIREP	Pilot Report. In real-world aviation: an in-flight weather report. In VANTIS context: the mandatory post-flight report submitted by the crew via AirGrid within 2 hours of block-in, covering fuel actuals, route flown, and debrief comments.
+QNH	Query: Nautical Height. The altimeter setting (atmospheric pressure at sea level) that causes the altimeter to read field elevation when the aircraft is on the ground. Set by crew during descent to the destination's QNH.
+QRC	Quick Reference Checklist. The abbreviated checklist used during normal and emergency operations for procedural verification. Full checklists are referenced for complete challenge-and-response sequences.
+RTO	Rejected Takeoff. The deliberate abort of a takeoff roll, executed at or below V1 speed when a condition is identified requiring the takeoff to be stopped.
+SELCAL	Selective Calling System. A system that allows ground stations to alert individual aircraft on HF radio by transmitting a unique 4-character tone code, avoiding continuous HF monitoring by crew. Used on oceanic tracks.
+SMS	Safety Management System. A systematic, company-wide approach to managing safety, including organizational structures, accountabilities, policies, and procedures. VANTIS SMS is modeled on ICAO Doc 9859.
+TOC	Top of Climb. The point in a flight at which the aircraft completes its initial climb phase and levels off at the first planned cruise altitude. A mandatory AirGrid check-in point.
+TOD	Top of Descent. The point at which the aircraft commences its descent from cruise altitude toward the destination. Generated as an advisory by AirGrid. A mandatory AirGrid check-in point.
+ULD	Unit Load Device. A standardized container or pallet used to consolidate individual pieces of cargo for loading into an aircraft. The 777F carries ULDs on its main deck and in lower hold positions.
+VATSIM	Virtual Air Traffic Simulation Network. The global online network on which VANTIS Air Cargo conducts all virtual flight operations, providing simulated ATC and pilot-to-pilot communications.
+VNT	The VANTIS Air Cargo ICAO callsign designator prefix. Used in all flight callsigns (e.g., VNT241 = VANTIS 241). Spoken as "VANTIS" followed by the flight number.
+ZFW	Zero Fuel Weight. The total weight of the aircraft including all payload and crew but excluding usable fuel. Must not exceed MZFW at any point. A key W&B planning parameter.
+
+
+
+VANTIS AirGrid SOP  |  VAG-SOP-001  |  Rev 1.0  |  Effective June 2026  |  CONTROLLED DOCUMENT — INTERNAL USE ONLY 
+ © VANTIS Air Cargo Operations Suite  |  AirGrid Intelligence | Fly Smart. Fly Heavy. Fly VANTIS
